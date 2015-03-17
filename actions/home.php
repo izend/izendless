@@ -66,23 +66,24 @@ function home($lang) {
 
 	$content = view('home', false, compact('page_contents', 'besocial'));
 
+	$sidebar=false;
+
+	$donate=true;
+	$contact=$account=$admin=true;
 	$languages='home';
-	$contact=$account=$admin=$donate=true;
-	$edit=user_has_role('writer') ? url('editpage', $_SESSION['user']['locale']) . '/'. $root_node . '?' . 'clang=' . $lang : false;
-	$validate=url('home', $lang);
-
-	$banner = build('banner', $lang, $with_toolbar ? compact('languages', 'contact', 'account', 'admin', 'donate') : compact('languages', 'contact', 'account', 'admin', 'donate', 'edit', 'validate'));
-	$toolbar = $with_toolbar ? build('toolbar', $lang, compact('edit', 'validate')) : false;
-
 	$search_text='';
 	$search_url=url('search', $lang);
 	$suggest_url=url('suggest', $lang);
-	$search=view('searchinput', $lang, compact('search_url', 'search_text', 'suggest_url'));
-	$sidebar = view('sidebar', false, compact('search'));
+	$search=compact('search_url', 'search_text', 'suggest_url');
+	$edit=user_has_role('writer') ? url('editpage', $_SESSION['user']['locale']) . '/'. $root_node . '?' . 'clang=' . $lang : false;
+	$validate=url('home', $lang);
 
-	$contact_page=url('contact', $lang);
-	$newsletter_page=false;
-	$footer = view('footer', $lang, compact('contact_page', 'newsletter_page'));
+	$banner = build('banner', $lang, $with_toolbar ? compact('languages', 'contact', 'account', 'admin', 'search', 'donate') : compact('languages', 'contact', 'account', 'admin', 'search', 'donate', 'edit', 'validate'));
+	$toolbar = $with_toolbar ? build('toolbar', $lang, compact('edit', 'validate')) : false;
+
+	$languages=false;
+	$legal=$social=$contact=true;
+	$footer = build('footer', $lang, compact('languages', 'social', 'legal', 'contact'));
 
 	$output = layout('standard', compact('footer', 'banner', 'content', 'sidebar', 'sharebar', 'toolbar'));
 

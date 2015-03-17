@@ -14,7 +14,7 @@ function banner($lang, $components=false) {
 	global $home_action;
 
 	$home_page=url($home_action, $lang);
-	$logo = view('logo', $lang, compact('home_page'));
+	$logo = view('logo', false, compact('home_page'));
 
 	$menu=$languages=$headline=$search=$donate=false;
 

@@ -110,7 +110,7 @@ $limited_contents=array('rss' => array('text'), 'newsletter' => array('text'));
 
 global $with_toolbar;
 
-$with_toolbar=is_mobile() ? false : true;
+$with_toolbar=false;	// is_mobile() ? false : true;
 
 global $search_all, $search_distance, $search_closest;
 
