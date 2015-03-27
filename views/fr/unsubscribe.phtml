@@ -8,12 +8,12 @@
  */
 ?>
 <?php extract($errors); ?>
-<form action="" method="post">
+<form action="" method="post" class="compact">
 <input type="hidden" name="unsubscribe_token" value="<?php echo $token; ?>" />
-<p class="inlabel<?php if ($missing_mail or $bad_mail): ?> inerror<?php endif; ?>">Quelle est votre adresse d'email&nbsp;?</p>
+<p class="inlabel<?php if ($missing_mail or $bad_mail): ?> inerror<?php endif; ?>">Email</p>
 <p><input type="text" name="unsubscribe_mail" id="unsubscribe_mail" size="40" maxlength="100" title="nom@domaine.fr" onkeypress="return focusonenter(event, 'unsubscribe_code')" value="<?php echo htmlspecialchars($user_mail, ENT_COMPAT, 'UTF-8'); ?>" /></p>
 <p class="info">Votre adresse d'email est strictement confidentielle.</p>
-<p class="inlabel<?php if ($missing_confirmation): ?> inerror<?php endif; ?>">Merci de confirmer votre désinscription&nbsp;:</p>
+<p class="inlabel<?php if ($missing_confirmation): ?> inerror<?php endif; ?>">Merci de confirmer votre désinscription</p>
 <p><input name="unsubscribe_confirmed" id="unsubscribe_confirmed" type="checkbox" title="Confirmation" <?php if ($confirmed) echo 'checked="checked"'; ?> />&nbsp;Je ne veux plus recevoir la lettre d'information par email</p>
 <?php if ($with_captcha): ?>
 <p>
