@@ -37,6 +37,8 @@ define('LOG_DIRNAME', 'log');
 
 define('TMP_DIRNAME', 'tmp');
 
+define('LESS_DIRNAME', 'css' . DIRECTORY_SEPARATOR . 'less');
+
 define('PHPQRCODECACHE_DIRNAME', 'phpqrcode' . DIRECTORY_SEPARATOR . 'cache');
 
 define('SITEMAP_XML', 'sitemap.xml');
@@ -44,6 +46,17 @@ define('SITEMAP_XML', 'sitemap.xml');
 function configure($lang) {
 	global $system_languages;
 	global $base_url;
+
+	$bad_less_directory=false;
+
+	if (!is_writable(ROOT_DIR . DIRECTORY_SEPARATOR . LESS_DIRNAME)) {
+		$bad_less_directory=LESS_DIRNAME;
+	}
+	else {
+		require_once 'recompilecss.php';
+
+		recompile_css();
+	}
 
 	$writable_files=array(
 		CONFIG_DIRNAME . DIRECTORY_SEPARATOR . DB_INC,
@@ -54,6 +67,7 @@ function configure($lang) {
 		AVATARS_DIRNAME,
 		LOG_DIRNAME,
 		TMP_DIRNAME,
+		LESS_DIRNAME,
 		PHPQRCODECACHE_DIRNAME,
 	);
 	$bad_write_permission=false;
@@ -384,7 +398,7 @@ function configure($lang) {
 
 	$_SESSION['configure_token'] = $token = token_id();
 
-	$errors = compact('bad_write_permission', 'missing_sitename', 'missing_webmaster', 'missing_content_languages', 'bad_default_language', 'missing_db_admin_user', 'missing_db_admin_password', 'bad_db_type', 'missing_db_name', 'bad_db_name', 'missing_db_host', 'bad_db_host', 'bad_db_prefix', 'missing_db_user', 'bad_db_user', 'missing_db_password', 'weak_db_password', 'missing_site_admin_user', 'bad_site_admin_user', 'missing_site_admin_password', 'weak_site_admin_password');
+	$errors = compact('bad_less_directory', 'bad_write_permission', 'missing_sitename', 'missing_webmaster', 'missing_content_languages', 'bad_default_language', 'missing_db_admin_user', 'missing_db_admin_password', 'bad_db_type', 'missing_db_name', 'bad_db_name', 'missing_db_host', 'bad_db_host', 'bad_db_prefix', 'missing_db_user', 'bad_db_user', 'missing_db_password', 'weak_db_password', 'missing_site_admin_user', 'bad_site_admin_user', 'missing_site_admin_password', 'weak_site_admin_password');
 
 	$output = view('configure', $lang, compact('token', 'sitename', 'webmaster', 'db_error', 'file_error', 'internal_error', 'content_languages', 'default_language', 'db_flag', 'db_type', 'db_reuse', 'db_admin_user', 'db_admin_password', 'db_name', 'db_host', 'db_prefix', 'db_user', 'db_password', 'site_admin_user', 'site_admin_password', 'errors'));
 

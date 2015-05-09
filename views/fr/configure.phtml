@@ -8,6 +8,11 @@
  */
 ?>
 <?php extract($errors); ?>
+<?php if ($bad_less_directory): ?>
+<p><b>IMPORTANT&nbsp;:</b> Le serveur n'est pas autorisé à écrire les feuilles de style dans le dossier <i><?php echo ROOT_DIR . DIRECTORY_SEPARATOR . $bad_less_directory; ?></i>.</p>
+<p>Pour modifier les droits d'accès, essayez la commande suivante&nbsp;:</p>
+<pre><code>$ cd <?php echo ROOT_DIR; ?>; chmod a+w <?php echo $bad_less_directory; ?></code></pre>
+<?php else: ?>
 <p>Votre site <b>iZend</b> est pratiquement fonctionnel.
 Lisez les instructions suivantes, remplissez le formulaire et appuyez sur Configurer pour lancer le configurateur.</p>
 <h6>Paramètres</h6>
@@ -197,3 +202,5 @@ et le rôle <code><?php echo $db_user; ?></code>.</p>
 <?php endif; ?>
 <p><input type="submit" class="submit submit_configure" name="configure_configure" id="configure_configure" value="Configurer" /></p>
 </form>
+<?php endif; ?>
+

@@ -77,10 +77,10 @@
 <?php if (true): ?>
 <link href="<?php echo $base_path; ?>/css/zero.css" rel="stylesheet" type="text/css" media="screen" />
 <?php endif; ?>
-<link href="<?php echo $base_path; ?>/css/screen.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="<?php echo $base_path; ?>/css/theme.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="<?php echo $base_path; ?>/css/less/screen.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="<?php echo $base_path; ?>/css/less/theme.css" rel="stylesheet" type="text/css" media="screen" />
 <?php if (!empty($lang)): ?>
-<link href="<?php echo $base_path; ?>/css/<?php echo $lang; ?>.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="<?php echo $base_path; ?>/css/less/<?php echo $lang; ?>.css" rel="stylesheet" type="text/css" media="screen" />
 <?php endif; ?>
 <?php if (!empty($stylesheets)): ?>
 <?php foreach ($stylesheets as $css) : ?>
@@ -103,9 +103,9 @@ else {
 <?php if (!empty($theme)): ?>
 <link href="<?php echo $base_path; ?>/css/themes/<?php echo $theme; ?>.css" rel="stylesheet" type="text/css" media="screen" />
 <?php endif; ?>
-<link href="<?php echo $base_path; ?>/css/print.css" rel="stylesheet" type="text/css" media="print" />
+<link href="<?php echo $base_path; ?>/css/less/print.css" rel="stylesheet" type="text/css" media="print" />
 <?php if (true): ?>
-<link href="<?php echo $base_path; ?>/css/media.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo $base_path; ?>/css/less/media.css" rel="stylesheet" type="text/css" />
 <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1" />
 <?php endif; ?>
 <?php require_once 'ismobile.php'; ?>

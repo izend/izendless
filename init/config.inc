@@ -174,3 +174,7 @@ $newsletter_thread = false;		// see cron.php
 global $theme;
 
 $theme = false;		// see css/themes
+
+global $recompile_css;
+
+$recompile_css=false;

@@ -13,11 +13,19 @@ function head($type=false) {
 			array('name' => 'jquery'),
 		),
 		'stylesheets' => array(
-			array('name' => 'content', 'media' => 'screen'),
+			array('name' => 'less/content', 'media' => 'screen'),
 		),
 	);
 
 	if (!$type) {
+		global $recompile_css;
+
+		if ($recompile_css) {
+			require_once 'recompilecss.php';
+
+			recompile_css();
+		}
+
 		return $head;
 	}
 

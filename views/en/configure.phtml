@@ -8,6 +8,11 @@
  */
 ?>
 <?php extract($errors); ?>
+<?php if ($bad_less_directory): ?>
+<p><b>IMPORTANT:</b> The server isn't allowed to write the style sheets in the folder <i><?php echo ROOT_DIR . DIRECTORY_SEPARATOR . $bad_less_directory; ?></i>.</p>
+<p>To modify the access rights, try the following command:</p>
+<pre><code>$ cd <?php echo ROOT_DIR; ?>; chmod a+w <?php echo $bad_less_directory; ?></code></pre>
+<?php else: ?>
 <p>Your <b>iZend</b> site is practically operational.
 Read the following instructions, fill in the form and press Configure to run the configurator.</p>
 <h6>Parameters</h6>
@@ -197,3 +202,5 @@ and the role <code><?php echo $db_user; ?></code>.</p>
 <?php endif; ?>
 <p><input type="submit" class="submit submit_configure" name="configure_configure" id="configure_configure" value="Configure" /></p>
 </form>
+<?php endif; ?>
+
