@@ -3,7 +3,7 @@
 /**
  *
  * @copyright  2015 izend.org
- * @version    1
+ * @version    2
  * @link       http://www.izend.org
  */
 
@@ -21,16 +21,20 @@ function recompile_css() {
 		return true;
 	}
 
+	$initless=LESS_DIR . DIRECTORY_SEPARATOR . 'INITLESS';
+
 	$options = array('compress' => true);
 
-	$variables = <<<_SEP_
+	$headless = <<<_SEP_
 @base-path: "$base_path";
+
+@import (less) "$initless";
 _SEP_;
 
 	foreach ($files as $f) {
 		try {
 			$parser	= new Less_Parser($options);
-			$parser->parse($variables);
+			$parser->parse($headless);
 			$parser->parseFile($f, $base_path);
 			$css = $parser->getCss();
 
