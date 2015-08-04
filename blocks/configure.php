@@ -2,8 +2,8 @@
 
 /**
  *
- * @copyright  2010-2014 izend.org
- * @version    48
+ * @copyright  2010-2015 izend.org
+ * @version    50
  * @link       http://www.izend.org
  */
 
@@ -42,6 +42,7 @@ define('LESS_DIRNAME', 'css' . DIRECTORY_SEPARATOR . 'less');
 define('PHPQRCODECACHE_DIRNAME', 'phpqrcode' . DIRECTORY_SEPARATOR . 'cache');
 
 define('SITEMAP_XML', 'sitemap.xml');
+define('ROBOTS_TXT', 'robots.txt');
 
 function configure($lang) {
 	global $system_languages;
@@ -64,6 +65,7 @@ function configure($lang) {
 		CONFIG_DIRNAME . DIRECTORY_SEPARATOR . ALIASES_INC,
 		LOGOS_DIRNAME . DIRECTORY_SEPARATOR . SITELOGO_PNG,
 		SITEMAP_XML,
+		ROBOTS_TXT,
 		AVATARS_DIRNAME,
 		LOG_DIRNAME,
 		TMP_DIRNAME,
@@ -381,7 +383,10 @@ function configure($lang) {
 			}
 
 			$sitemap_xml = build_sitemap_xml($sitename, $languages);
-			@file_put_contents(ROOT_DIR . DIRECTORY_SEPARATOR . SITEMAP_XML, array('<?xml version="1.0" encoding="UTF-8"?>', $sitemap_xml));
+			@file_put_contents(ROOT_DIR . DIRECTORY_SEPARATOR . SITEMAP_XML, array('<?xml version="1.0" encoding="UTF-8"?>', "\n", $sitemap_xml));
+
+			$robots_txt = build_robots_txt($sitename, $languages);
+			@file_put_contents(ROOT_DIR . DIRECTORY_SEPARATOR . ROBOTS_TXT, $robots_txt);
 
 			$logo = strlogo($sitename);
 			@imagepng($logo, LOGOS_DIR . DIRECTORY_SEPARATOR . SITELOGO_PNG, 9, PNG_ALL_FILTERS);
@@ -423,4 +428,8 @@ function build_sitemap_xml($sitename, $languages) {
 	$date=date('Y-m-d');
 
 	return render(INIT_DIR . DIRECTORY_SEPARATOR . SITEMAP_XML, compact('sitename', 'languages', 'date'));
+}
+
+function build_robots_txt($sitename, $languages) {
+	return render(INIT_DIR . DIRECTORY_SEPARATOR . ROBOTS_TXT, compact('sitename', 'languages'));
 }
