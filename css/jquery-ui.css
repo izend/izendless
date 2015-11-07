@@ -850,7 +850,8 @@ body .ui-tooltip {
 	font-size: 1em;
 }
 .ui-widget-content {
-	border: 1px solid #aaaaaa;
+/*	border: 1px solid #aaaaaa; */
+	box-shadow: 1px 2px 5px #ccc;
 	background: #ffffff url("images/ui-bg_flat_75_ffffff_40x100.png") 50% 50% repeat-x;
 	color: #222222;
 }
@@ -872,15 +873,11 @@ body .ui-tooltip {
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-	border: 1px solid #d3d3d3;
-/*	background: #e6e6e6 url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x; */
-	background-image:-webkit-linear-gradient(top, #eeeeee, #cccccc);
-	background-image:   -moz-linear-gradient(top, #eeeeee, #cccccc);
-	background-image:    -ms-linear-gradient(top, #eeeeee, #cccccc);
-	background-image:     -o-linear-gradient(top, #eeeeee, #cccccc);
-	background-image:        linear-gradient(top, #eeeeee, #cccccc);
+/*	border: 1px solid #d3d3d3; */
+	background: #e6e6e6 url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;
 	font-weight: normal;
 	color: #555555;
+	padding: 1px;
 }
 .ui-state-default a,
 .ui-state-default a:link,
@@ -894,15 +891,11 @@ body .ui-tooltip {
 .ui-state-focus,
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
-	border: 1px solid #999999;
-/*	background: #dadada url("images/ui-bg_glass_75_dadada_1x400.png") 50% 50% repeat-x; */
-	background-image:-webkit-linear-gradient(top, #eeeeee, #cccccc);
-	background-image:   -moz-linear-gradient(top, #eeeeee, #cccccc);
-	background-image:    -ms-linear-gradient(top, #eeeeee, #cccccc);
-	background-image:     -o-linear-gradient(top, #eeeeee, #cccccc);
-	background-image:        linear-gradient(top, #eeeeee, #cccccc);
+/*	border: 1px solid #999999; */
+	background: #dadada url("images/ui-bg_glass_75_dadada_1x400.png") 50% 50% repeat-x;
 	font-weight: normal;
 	color: #212121;
+	padding: 1px;
 }
 .ui-state-hover a,
 .ui-state-hover a:hover,
