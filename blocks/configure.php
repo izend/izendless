@@ -3,7 +3,7 @@
 /**
  *
  * @copyright  2010-2015 izend.org
- * @version    50
+ * @version    51
  * @link       http://www.izend.org
  */
 
@@ -44,6 +44,9 @@ define('PHPQRCODECACHE_DIRNAME', 'phpqrcode' . DIRECTORY_SEPARATOR . 'cache');
 define('SITEMAP_XML', 'sitemap.xml');
 define('ROBOTS_TXT', 'robots.txt');
 
+define('HTACCESS', 'htaccess');
+define('DOT_HTACCESS', '.htaccess');
+
 function configure($lang) {
 	global $system_languages;
 	global $base_url;
@@ -60,6 +63,7 @@ function configure($lang) {
 	}
 
 	$writable_files=array(
+		DOT_HTACCESS,
 		CONFIG_DIRNAME . DIRECTORY_SEPARATOR . DB_INC,
 		CONFIG_DIRNAME . DIRECTORY_SEPARATOR . CONFIG_INC,
 		CONFIG_DIRNAME . DIRECTORY_SEPARATOR . ALIASES_INC,
@@ -68,9 +72,9 @@ function configure($lang) {
 		ROBOTS_TXT,
 		AVATARS_DIRNAME,
 		LOG_DIRNAME,
+		PHPQRCODECACHE_DIRNAME,
 		TMP_DIRNAME,
 		LESS_DIRNAME,
-		PHPQRCODECACHE_DIRNAME,
 	);
 	$bad_write_permission=false;
 
@@ -382,6 +386,9 @@ function configure($lang) {
 				break;
 			}
 
+			$htaccess = build_htaccess($sitename);
+			@file_put_contents(ROOT_DIR . DIRECTORY_SEPARATOR . DOT_HTACCESS, $htaccess);
+
 			$sitemap_xml = build_sitemap_xml($sitename, $languages);
 			@file_put_contents(ROOT_DIR . DIRECTORY_SEPARATOR . SITEMAP_XML, array('<?xml version="1.0" encoding="UTF-8"?>', "\n", $sitemap_xml));
 
@@ -432,4 +439,8 @@ function build_sitemap_xml($sitename, $languages) {
 
 function build_robots_txt($sitename, $languages) {
 	return render(INIT_DIR . DIRECTORY_SEPARATOR . ROBOTS_TXT, compact('sitename', 'languages'));
+}
+
+function build_htaccess($sitename) {
+	return render(INIT_DIR . DIRECTORY_SEPARATOR . HTACCESS, compact('sitename'));
 }
