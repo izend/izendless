@@ -1,7 +1,7 @@
 /**
  *
- * @copyright  2015 izend.org
- * @version    4
+ * @copyright  2015-2016 izend.org
+ * @version    5
  * @link       http://www.izend.org
  */
 
@@ -327,7 +327,9 @@ a:hover #sitedomain {color:#ff9900;}
 .besocial {width:100%;padding:0;margin:1em 0;}
 .besocial li {display:inline-block;padding:0;margin:0;}
 .besocial.standard li {height:30px;vertical-align:top;}
+.besocial.standard li.pinterest span {vertical-align:top !important;}
 
+#sharebar.lite a span, .besocial.lite a span {display:none;}
 #sharebar.lite a, .besocial.lite a {width:24px;height:24px;display:inline-block;background:transparent url("@{base-path}/images/theme/social.png") no-repeat;}
 #sharebar.lite a.facebook, .besocial.lite a.facebook {background-position:0 0;}
 #sharebar.lite a.twitter, .besocial.lite a.twitter {background-position:-24px 0;}
@@ -433,4 +435,5 @@ a:hover .icon_pinterest {background-position:-635px 0;}
 
 .meter.inerror > span {background-color:#df6f6f !important;}
 
-#pinterest-board > span {box-shadow: none !important;}
+#pinterest-board > span {box-shadow:none !important;}
+#pinterest-board > span > span {overflow:hidden;}
