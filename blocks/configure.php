@@ -2,8 +2,8 @@
 
 /**
  *
- * @copyright  2010-2015 izend.org
- * @version    51
+ * @copyright  2010-2016 izend.org
+ * @version    52
  * @link       http://www.izend.org
  */
 
@@ -49,7 +49,6 @@ define('DOT_HTACCESS', '.htaccess');
 
 function configure($lang) {
 	global $system_languages;
-	global $base_url;
 
 	$bad_less_directory=false;
 
@@ -400,9 +399,10 @@ function configure($lang) {
 			imagedestroy($logo);
 
 			session_reopen();
-			reload($base_url);
 
-			return false;
+			$output = view('configureok', $lang);
+
+			return $output;
 
 		default:
 			break;

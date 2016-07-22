@@ -2,8 +2,8 @@
 
 /**
  *
- * @copyright  2010-2014 izend.org
- * @version    17
+ * @copyright  2010-2016 izend.org
+ * @version    19
  * @link       http://www.izend.org
  */
 ?>
@@ -48,7 +48,7 @@ $('input[name=register_timezone]').val(tz.name());
 <p class="info">Your password will be sent to this address.</p>
 <?php if ($with_website): ?>
 <p class="inlabel<?php if ($bad_website): ?> inerror<?php endif; ?>">Website</p>
-<p><input type="text" name="register_website" id="register_website" size="40" maxlength="100" title="www.domain.com" onkeypress="return focusonenter(event, '<?php echo $with_password ? 'register_password' : 'register_code'; ?>')" value="<?php echo htmlspecialchars($website, ENT_COMPAT, 'UTF-8'); ?>" /></p>
+<p><input type="text" name="register_website" id="register_website" size="30" maxlength="100" title="www.domain.com" onkeypress="return focusonenter(event, '<?php echo $with_password ? 'register_password' : 'register_code'; ?>')" value="<?php echo htmlspecialchars($website, ENT_COMPAT, 'UTF-8'); ?>" /></p>
 <?php endif; ?>
 <?php if ($with_password): ?>
 <p class="inlabel<?php if ($missing_password or $bad_password): ?> inerror<?php endif; ?>">Key</p>
@@ -56,7 +56,7 @@ $('input[name=register_timezone]').val(tz.name());
 <p class="info">Enter at least 6 characters including 1 digit.</p>
 <?php endif; ?>
 <?php if ($with_newsletter): ?>
-<p><input type="checkbox" name="register_newsletter" id="register_newsletter" title="Infolettre"<?php if ($newsletter): ?> checked="checked"<?php endif; ?> />&nbsp;I want to receive the newsletter by email</p>
+<p><input type="checkbox" name="register_newsletter" id="register_newsletter" title="Newsletter"<?php if ($newsletter): ?> checked="checked"<?php endif; ?> />&nbsp;I want to receive the newsletter by email</p>
 <?php endif; ?>
 <?php if ($with_confirmation): ?>
 <p><input type="checkbox" name="register_confirmed" id="register_confirmed" title="Confirmation"<?php if ($confirmed): ?> checked="checked"<?php endif; ?> />&nbsp;I wish to create an account</p>
@@ -116,7 +116,7 @@ $('input[name=register_timezone]').val(tz.name());
 <?php if ($contact_page): ?>If you can describe the problem, please <a href="<?php echo $contact_page; ?>" rel="nofollow">contact us</a>.<?php endif; ?></p>
 <?php endif; ?>
 <?php if ($account_created): ?>
-<p>Your account has been created. Your password has been emailed to your address.<br />
+<p>Your account has been created. Your password has been emailed to your address.
 To identify yourself, <a href="<?php echo $user_page; ?>">click here</a>.</p>
 <?php endif; ?>
 </div>

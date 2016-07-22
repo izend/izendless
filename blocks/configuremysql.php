@@ -2,8 +2,8 @@
 
 /**
  *
- * @copyright  2014 izend.org
- * @version    5
+ * @copyright  2014-2016 izend.org
+ * @version    7
  * @link       http://www.izend.org
  */
 
@@ -18,16 +18,10 @@ function create_db($db_admin_user, $db_admin_password, $db_host, $db_name, $db_u
 		$sql="CREATE DATABASE `$db_name` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci";
 		$db_conn->exec($sql);
 
-		$sql= <<<_SEP_
-INSERT INTO mysql.`user` (`Host`, `User`, `Password`, `ssl_cipher`, `x509_issuer`, `x509_subject`)
-VALUES ('$db_host', '$db_user', PASSWORD('$db_password'), '', '', '');
-_SEP_;
+		$sql="CREATE USER '$db_user'@'$db_host' IDENTIFIED BY '$db_password'";
 		$db_conn->exec($sql);
 
-		$sql= <<<_SEP_
-INSERT INTO mysql.`db` (`Host`, `Db`, `User`, `Select_priv`, `Insert_priv`, `Update_priv`, `Delete_priv`, `Create_priv`)
-VALUES ('$db_host', '$db_name', '$db_user', 'Y', 'Y', 'Y', 'Y', 'Y');
-_SEP_;
+		$sql="GRANT SELECT, INSERT, DELETE, UPDATE, DELETE, CREATE, DROP ON `$db_name`.* TO '$db_user'@'$db_host'";
 		$db_conn->exec($sql);
 
 		$sql="FLUSH PRIVILEGES";
@@ -83,6 +77,7 @@ CREATE TABLE `${db_prefix}comment` (
   `created` datetime NOT NULL,
   `edited` datetime NOT NULL,
   `user_id` int(10) unsigned NOT NULL DEFAULT '0',
+  `user_mail` varchar(100) DEFAULT NULL,
   `ip_address` int(10) unsigned NOT NULL,
   `text` text NOT NULL,
   PRIMARY KEY (`comment_id`),
