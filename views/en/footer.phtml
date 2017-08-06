@@ -31,16 +31,16 @@
 <span class="bullet">&bull;</span>
 <span class="controls">
 <?php if (!empty($nobody_page)): ?>
-<a class="btn btn_logout" href="<?php echo $nobody_page; ?>" rel="nofollow" title="Disconnect">Disconnect</a>
+<a href="<?php echo $nobody_page; ?>" rel="nofollow" title="Disconnect"><i class="fa fa-power-off" aria-hidden="true" aria-label="Disconnect"></i></a>
 <?php endif; ?>
 <?php if (!empty($account_page)): ?>
-<a class="btn btn_account" href="<?php echo $account_page; ?>" rel="nofollow" title="Your account">Your account</a>
+<a href="<?php echo $account_page; ?>" rel="nofollow" title="Your account"><i class="fa fa-user" aria-hidden="true" aria-label="Your account"></i></a>
 <?php endif; ?>
 <?php if (!empty($user_page)): ?>
-<a class="btn btn_login" href="<?php echo $user_page; ?>" rel="nofollow" title="Your account">Your account</a>
+<a href="<?php echo $user_page; ?>" rel="nofollow" title="Your account"><i class="fa fa-user" aria-hidden="true" aria-label="Your account"></i></a>
 <?php endif; ?>
 <?php if (!empty($admin_page)): ?>
-<a class="btn btn_admin" href="<?php echo $admin_page; ?>" rel="nofollow" title="Manage">Manage</a>
+<a href="<?php echo $admin_page; ?>" rel="nofollow" title="Manage"><i class="fa fa-cog" aria-hidden="true" aria-label="Manage"></i></a>
 <?php endif; ?>
 </span>
 <?php endif; ?>

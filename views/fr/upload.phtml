@@ -17,11 +17,11 @@
 <input type="submit" class="submit submit_put" id="upload_put" name="upload_put" value="Télécharger" title="" />
 <?php extract($errors); ?>
 <?php if ($missing_file or $bad_file or $bad_name or $bad_size or $bad_copy or $copy_error): ?>
-<span class="icon icon_ko">-</span>
+<span class="icon icon_ko"></span>
 <?php else: ?>
 <?php extract($infos); ?>
 <?php if ($file_copied): ?>
-<span class="icon icon_ok">+</span>
+<span class="icon icon_ok"></span>
 <?php endif; ?>
 <?php endif; ?>
 </p>

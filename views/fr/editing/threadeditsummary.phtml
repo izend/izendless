@@ -13,7 +13,7 @@
 <input name="clang" type="hidden" value="<?php echo $clang; ?>" />
 <p>
 <?php echo $inlanguages; ?>
-<span id="thread_hidy" class="hidy">+</span>
+<span id="thread_hidy" class="hidy"><i class="fa fa-lg fa-caret-down"></i></span>
 </p>
 <div id="thread">
 <p>
@@ -111,7 +111,7 @@ le contenu
 <input id="new_node_number" name="new_node_number" type="text" size="2" maxlength="3" value="<?php echo htmlspecialchars($new_node_number, ENT_COMPAT, 'UTF-8'); ?>" title="Numéro" onkeypress="return submitonenter(event, 'node_create')"/>
 </span>
 <?php if ($thread_contents): ?>
-<span id="threadcontent_hidy" class="hidy">+</span>
+<span id="threadcontent_hidy" class="hidy"><i class="fa fa-lg fa-caret-down"></i></span>
 <?php endif; ?>
 </p>
 <?php if ($thread_contents): ?>

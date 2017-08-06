@@ -122,9 +122,6 @@ div.gallery img:first-child, div.gallery a:first-child {border-left-width:0 !imp
 div.gallery img:last-child, div.gallery a:last-child {border-right-width:0 !important;}
 div.gallery.compact img, div.gallery.compact a {border:none;}
 
-.round {border-radius:8px;}
-.shadow {box-shadow:2px 2px 3px #999999;-webkit-box-shadow:2px 2px 3px #999999;}
-
 div.hbar > * {margin-left:0.5em;margin-right:0.5em;}
 div.hbar > *:first-child {margin-left:0;}
 div.hbar > *:last-child {margin-right:0}
@@ -171,9 +168,8 @@ div.vbar > *:last-child {margin-bottom:0;}
 .pointer {cursor:pointer;}
 
 input.submit {padding:0;margin:5px 0;border:none;vertical-align:middle;text-indent:-9999px;cursor:pointer;-webkit-appearance:none;}
-span.icon {display:inline-block;text-indent:-9999px;vertical-align:middle;}
 
-a.button {padding:6px 0 4px;margin:5px 0;display:inline-block;text-align:center;cursor:pointer;}
+a.button {padding:5px 0 1px;margin:5px 0;display:inline-block;text-align:center;cursor:pointer;}
 
 .cloud {font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;}
 .cloud {padding:0;margin:0;text-align:center;}
@@ -197,13 +193,12 @@ div.video video {position:absolute;top:0;left:0;width:100%;height:100%;}
 .ytplay:hover {background-position:-264px -24px;}
 }
 
-ol.tree, ol.tree ol {list-style-type:none;margin:0;padding:0;}
-ol.tree ol {margin-left:12px;background:url("@{base-path}/images/vline.png") repeat-y;}
-ol.tree li {margin:0;padding:0 12px;line-height:20px;background:url("@{base-path}/images/tline.png") no-repeat;} 
-ol.tree li.lastnode {background:#ffffff url("@{base-path}/images/lline.png") no-repeat;} 
-ol.tree li.firstnode {background:#ffffff;}
-ol.tree li.dirnode {font-style:italic;} 
-ol.tree li.filenode {font-style:normal;}
+.tree, .tree ol, .tree li {position:relative;}
+.tree ol {list-style:none;margin:0;padding-left:32px;}
+.tree li:before, .tree li:after {content:"";position:absolute;left:-12px;}
+.tree li:before {border-top:1px solid #aaaaaa;top:12px;width:8px;height:0;}
+.tree li:after {border-left:1px solid #aaaaaa;height:100%;width:0px;top:4px;}
+.tree ol > li:last-child:after {height:8px;}
 
 .meter {width:200px;height:1.5em;font-weight:bold;font-size:small;border-radius:2px;border:1px solid #cccccc;outline:0 none;margin:1px 0;background:none repeat-x #ffffff;max-width:90%;}
 .meter > span {display:block;height:100%;background-color:#cccccc;color:#ffffff;text-align:center;}
