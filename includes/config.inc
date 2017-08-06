@@ -44,7 +44,7 @@ $signature='izend.org - http://www.izend.org';
 global $socializing, $socializingmode;
 
 $socializing='inline';	// false, 'inline', 'bar', 'either', 'both'
-$socializingmode='standard';       // 'standard', 'lite', 'awesome'
+$socializingmode='awesome';	// 'standard', 'lite', 'awesome'
 
 global $cookieconsent;
 

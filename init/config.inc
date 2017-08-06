@@ -52,7 +52,7 @@ $signature='<?php echo $sitename; ?> - http://www.<?php echo $sitename; ?>';
 global $socializing, $socializingmode;
 
 $socializing='inline';	// false, 'inline', 'bar', 'either', 'both'
-$socializingmode='standard';       // 'standard', 'lite', 'awesome'
+$socializingmode='awesome';	// 'standard', 'lite', 'awesome'
 
 global $cookieconsent;
 
