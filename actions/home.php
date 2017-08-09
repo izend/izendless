@@ -83,8 +83,9 @@ function home($lang) {
 	$toolbar = $with_toolbar ? build('toolbar', $lang, compact('edit', 'validate')) : false;
 
 	$languages=false;
-	$legal=$social=$contact=true;
-	$footer = build('footer', $lang, compact('languages', 'social', 'legal', 'contact'));
+	$admin=$contact=true;
+	$account=false;
+	$footer = build('footer', $lang, compact('languages', 'account', 'admin', 'contact'));
 
 	$output = layout('standard', compact('footer', 'banner', 'content', 'sidebar', 'sharebar', 'toolbar'));
 
