@@ -1,7 +1,7 @@
 /**
  *
  * @copyright  2010-2017 izend.org
- * @version    125
+ * @version    128
  * @link       http://www.izend.org
  */
 
@@ -39,6 +39,8 @@ th {background-color:#ffffe0;font-weight:bold;}
 .vignette {float:right;margin:0.25em 0 0.5em 1em;}
 
 .readmore {background:transparent url(../images/theme/icons/look.png) no-repeat;text-indent:30px;line-height:24px;}
+
+.clickit {display:inline-block;color:#333333;background-color:#ffffe0;padding:10px;border-radius:2px;font-weight:bold;cursor:pointer;}
 
 .round {background-color:#eeeeee;}
 
@@ -117,7 +119,7 @@ div.alert {color:#333333;background-color:#ffcccc;padding:0.5em 1em 0.5em 1em;}
 div.warning {color:#333333;background-color:#ffffe0;padding:0.5em 1em 0.5em 1em;}
 div.alert p, div.warning p {margin-top:0.5em; margin-bottom:0.5em;}
 
-.tagbar {margin-bottom:5px;}
+.tagbar {margin-bottom:2px;}
 .tagbar .tagmore {margin-left:50px;white-space:nowrap;}
 
 input.submit, a.button {background:#eeeeee;color:#333333;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;text-indent:0;font-size:14px;font-weight:bold;border-radius:3px;cursor:pointer;}
@@ -364,7 +366,7 @@ a:hover #sitedomain {color:#ff9900;}
 #sharebar.lite li.pinterest a, .besocial.lite li.pinterest a {background-position:-168px 0;}
 
 #sharebar.awesome {margin-left:-86px;padding:5px;}
-#sharebar.awesome a, .besocial.awesome a {color:#ffffff;font-size:24px;width:44px;display:list-item;list-style:none;text-align:center;padding:8px 0;}
+#sharebar.awesome a, .besocial.awesome a {color:#ffffff;font-size:24px;line-height:24px;width:44px;display:list-item;list-style:none;text-align:center;padding:8px 0;}
 #sharebar.awesome .facebook, .besocial.awesome .facebook {background-color:#3b5998;}
 #sharebar.awesome .twitter, .besocial.awesome .twitter {background-color:#4ad2ff;}
 #sharebar.awesome .gplus, .besocial.awesome .gplus {background-color:#a7291c;}
