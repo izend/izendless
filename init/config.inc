@@ -3,7 +3,7 @@
 /**
  *
  * @copyright  2010-2017 izend.org
- * @version    49
+ * @version    50
  * @link       http://www.izend.org
  */
 <?php
@@ -14,8 +14,6 @@ if (!$webmaster) {
 	$webmaster = 'webmaster@localhost.net';
 }
 ?>
-
-require_once 'ismobile.php';
 
 global $base_url, $base_path, $base_root;
 
