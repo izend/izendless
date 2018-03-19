@@ -2,8 +2,8 @@
 
 /**
  *
- * @copyright  2010-2017 izend.org
- * @version    50
+ * @copyright  2010-2018 izend.org
+ * @version    51
  * @link       http://www.izend.org
  */
 
@@ -129,8 +129,9 @@ global $with_toolbar;
 
 $with_toolbar=false;	// is_mobile() ? false : true;
 
-global $search_all, $search_distance, $search_closest, $search_pertinence;
+global $search_default, $search_all, $search_distance, $search_closest, $search_pertinence;
 
+$search_default=false;	// false or cloud_id
 $search_all=true;		// true, false, 'cloud'
 $search_distance=2;		// 0 - exact match, 1 - close, 2 - not so close, etc.
 $search_closest=true;	// true - best matches, false - all matches
