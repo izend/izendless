@@ -1,7 +1,7 @@
 /**
  *
  * @copyright  2015-2018 izend.org
- * @version    24
+ * @version    25
  * @link       http://www.izend.org
  */
 
@@ -124,20 +124,24 @@ div.alert p, div.warning p {margin-top:0.5em; margin-bottom:0.5em;}
 .tagbar {margin-bottom:2px;}
 .tagbar .tagmore {margin-left:50px;white-space:nowrap;}
 
-input.submit, a.button {background:#eeeeee;color:@text-color;font-family:@headings-font-family;text-indent:0;font-size:14px;font-weight:bold;border-radius:@border-radius;cursor:pointer;}
-input.submit, a.button {box-shadow:@shadow-size @shadow-color;-webkit-box-shadow:@shadow-size @shadow-color;}
-input.submit, a.button {
+button, input.submit, a.button {background:#eeeeee;color:@text-color;font-family:@headings-font-family;font-size:14px;font-weight:bold;border-radius:@border-radius;}
+button, input.submit, a.button {box-shadow:@shadow-size @shadow-color;-webkit-box-shadow:@shadow-size @shadow-color;}
+button, input.submit, a.button {
 background-image:-webkit-linear-gradient(top, #eeeeee, #cccccc);
 background-image:        linear-gradient(top, #eeeeee, #cccccc);
 }
-input.submit, a.button {width:100px;height:30px;}
-input.submit.narrow {width:40px;}
-input.submit.small {width:22px;height:22px;}
-input.submit.inerror {color:@error-color;}
+button, input.submit {width:100px;height:30px;}
+a.button {width:100px;height:24px;}
 
-a.button.large {width:140px;}
+button.wide, input.submit.wide, a.button.wide {width:140px;}
+button.narrow, input.submit.narrow, a.button.narrow {width:40px;}
+button.tiny, input.submit.tiny, a.button.tiny {width:22px;height:22px;}
 
-a.button.lang {width:30px;border-radius:15px;}
+button.inerror, input.submit.inerror, a.button.inerror {color:@error-color;}
+
+button.transparent {width:auto;height:auto;margin:0;padding:0;border:none;background:none;box-shadow:none;-webkit-box-shadow:none;}
+
+a.button.lang {width:30px;border-radius:15px;text-indent:0;}
 a.button.lang.selected {color:#ffffff;}
 
 .lang {width:24px;height:24px;display:inline-block;background:transparent url("@{base-path}/images/theme/flags.png") no-repeat;border:none;vertical-align:middle;text-indent:-9999px;box-shadow:none;-webkit-box-shadow:none;}
@@ -302,7 +306,6 @@ a:hover #sitedomain {color:@alt-color;}
 
 #searchinput {width:196px;padding:4px 0 5px 6px;background-color:#ffffff;border-radius:@border-radius;box-shadow:@shadow-size @shadow-color;-webkit-box-shadow:@shadow-size @shadow-color;}
 #searchtext {width:160px;padding-left:4px;padding-right:0;margin:0;border:none;outline:none;-webkit-appearance:none;}
-#search {width:24px;height:24px;padding:0;margin:0;border:none;background:none;cursor:pointer;}
 
 #banner #headline {float:right;margin-top:20px;margin-bottom:0;text-align:right;}
 #banner #headline a:hover {color:#ffffff;}
@@ -426,7 +429,6 @@ a:hover .icon_instagram {background-position:-753px 0;}
 #comments .author {font-style:italic;}
 #comments .author a:link, #comments .author a:visited {color:#666666;}
 #comments .author a:hover {color:#ff9900;}
-#comments .moderate {border:none;background:transparent;cursor:pointer;}
 #comments pre {font-family:monospace;font-size:10pt;}
 #comments blockquote {font-size:small;margin-right:0;}
 
@@ -439,7 +441,6 @@ a:hover .icon_instagram {background-position:-753px 0;}
 .visits, .vote {font-family:@headings-font-family;font-weight:bold;color:#444444;font-size:smaller;}
 .visits, .vote {float:right;margin-left:1em;margin-top:0.5em;}
 .vote .count {float:left;margin-right:0.25em;}
-.vote .plusone {padding:0;border:none;background:transparent;}
 .vote span.plusone {display:inline-block;cursor:default;}
 .vote button.plusone {color:#444444;cursor:pointer;}
 
