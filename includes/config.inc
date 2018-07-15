@@ -3,7 +3,7 @@
 /**
  *
  * @copyright  2010-2018 izend.org
- * @version    51
+ * @version    52
  * @link       http://www.izend.org
  */
 
@@ -96,7 +96,7 @@ $supported_languages=array('en', 'fr');	// 'en', 'fr'
 
 global $supported_currencies;
 
-$supported_currencies=array('EUR', 'USD', 'GBP');      // 'EUR', 'USD', 'GBP'
+$supported_currencies=array('EUR', 'USD', 'GBP');	// 'EUR', 'USD', 'GBP'
 
 global $supported_roles;
 
@@ -174,9 +174,10 @@ global $content_folder;
 
 $content_folder = false;		// can be an array
 
-global $rss_thread;
+global $rss_thread, $rss_feed_description;
 
-$rss_thread = false;
+$rss_thread = false;			// can be an array
+$rss_description = 'abstract';	// 'content or 'abstract'
 
 global $newsletter_thread;
 
