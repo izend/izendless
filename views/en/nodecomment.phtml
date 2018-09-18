@@ -31,7 +31,7 @@ foreach ($comments as $c) {
 <div class="oldcomment noprint">
 <?php endif; ?>
 <p class="headline"><span class="longdate"><?php echo longdate_en($comment_created); ?> at <?php echo date('H:i', $comment_created); ?></span>
-<?php if ($moderated === true or (is_array($moderated) and in_array($comment_id, $moderated))): ?><button class="transparent noprint" name="comment_moderate" type="submit" value="<?php echo $comment_id; ?>" title="Edit"><i class="fa fa-pencil"></i></button>
+<?php if ($moderated === true or (is_array($moderated) and in_array($comment_id, $moderated))): ?><button class="transparent noprint" name="comment_moderate" type="submit" value="<?php echo $comment_id; ?>" title="Edit"><i class="fa fa-pen"></i></button>
 <?php if (!$comment_confirmed): ?><span class="icon icon_ko"></span><?php endif; ?>
 <?php endif; ?>
 <?php if (true): ?>

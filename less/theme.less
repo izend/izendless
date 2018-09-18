@@ -40,7 +40,7 @@ th {background-color:#ffffe0;font-weight:bold;}
 
 .vignette {float:right;margin:0.25em 0 0.5em 1em;}
 
-.readmore:before {font-family:FontAwesome;content:"\f1b0";padding-right:.25em;}
+.readmore:before {font-family:@icon-font-family;font-weight:900;content:"\f1b0";padding-right:.25em;}
 
 .clickit {display:inline-block;color:#333333;background-color:#ffffe0;padding:10px;border-radius:@border-radius;font-weight:bold;cursor:pointer;}
 
@@ -97,7 +97,7 @@ background-image:        linear-gradient(top, #eeeeee, #cccccc);
 
 .formatted {font-size:80%;}
 
-div.download:before {font-family:FontAwesome;content:"\f019";padding-right:.25em;}
+div.download:before {font-family:@icon-font-family;font-weight:900;content:"\f019";padding-right:.25em;}
 
 .loading {width:30px;height:30px;background:transparent url("@{base-path}/images/theme/loading.gif") no-repeat 50% 50%;}
 
@@ -152,7 +152,7 @@ a.button.lang.selected {color:#ffffff;}
 .lang.es {background-position:-96px 0;}
 .lang.ru {background-position:-120px 0;}
 
-span.icon:before {font-family:FontAwesome;font-size:1.33333333em;line-height:.75em;vertical-align:-15%;}
+span.icon:before {font-family:@icon-font-family;font-weight:900;}
 span.icon_ok:before {content:"\f058";}
 span.icon_ko:before {content:"\f06a";color:@error-color;}
 span.icon_user:before {content:"\f007";}
@@ -160,7 +160,7 @@ span.icon_mail:before {content:"\f0e0";}
 span.icon_work:before {content:"\f013";}
 span.icon_cancel:before {content:"\f00d";}
 span.icon_check:before {content:"\f00c";}
-span.icon_edit:before {content:"\f040";}
+span.icon_edit:before {content:"\f304";}
 span.icon_print:before {content:"\f02f";}
 span.icon_web:before {content:"\f0ac";}
 span.icon_lock:before {content:"\f023";}
@@ -276,7 +276,7 @@ background-image:        linear-gradient(right, transparent 0%, white 50%, trans
 #sitedomain {color:@shadow-color;font-family:@mono-font-family;font-size:24px;}
 a:hover #sitedomain {color:@alt-color;}
 
-#bannermenu {width:180px;height:24px;float:left;margin:18px 10px 0;position:relative;}
+#bannermenu {width:180px;height:24px;float:left;margin:16px 10px;position:relative;}
 #bannermenu a {position:absolute;padding:4px 0;}
 #bannermenu .btn_login {left:0px;}
 #bannermenu .btn_logout {left:0px;}
@@ -287,7 +287,7 @@ a:hover #sitedomain {color:@alt-color;}
 #bannermenu .btn_view {left:120px;}
 #bannermenu .btn_validate {left:150px;}
 
-#banner .languages {width:24px;height:24px;float:left;margin:18px 0;}
+#banner .languages {width:24px;height:24px;float:left;margin:16px 0 0;}
 #banner .languages a {width:24px;height:24px;display:inline-block;background:transparent url("@{base-path}/images/theme/flags.png") no-repeat;text-indent:-9999px;}
 #banner .languages .btn_fr {background-position:0 0;}
 #banner .languages .btn_en {background-position:-24px 0;}
@@ -306,11 +306,12 @@ a:hover #sitedomain {color:@alt-color;}
 
 #searchinput {width:196px;padding:4px 0 5px 6px;background-color:#ffffff;border-radius:@border-radius;box-shadow:@shadow-size @shadow-color;-webkit-box-shadow:@shadow-size @shadow-color;}
 #searchtext {width:160px;padding-left:4px;padding-right:0;margin:0;border:none;outline:none;-webkit-appearance:none;}
+#search {vertical-align:text-bottom;}
 
-#banner #headline {float:right;margin-top:20px;margin-bottom:0;text-align:right;}
+#banner #headline {float:right;margin-top:18px;margin-bottom:0;text-align:right;}
 #banner #headline a:hover {color:#ffffff;}
 #banner #searchinput {float:right;margin:12px 0 14px 20px;}
-#banner #donate {float:right;margin-top:20px;}
+#banner #donate {float:right;margin-top:18px;}
 
 #sidebar {float:right;width:200px;margin-left:1em;}
 
@@ -372,7 +373,7 @@ a:hover #sitedomain {color:@alt-color;}
 #sharebar.awesome .pinterest, .besocial.awesome .pinterest {background-color:#cb2027;}
 
 .besocial.awesome li {margin:0.25em 0;}
-.besocial.awesome a {width:88px;}
+.besocial.awesome a {width:88px;color:#ffffff;}
 
 #socialbar a {width:24px;height:24px;display:inline-block;background:transparent url("@{base-path}/images/theme/social.png") no-repeat;}
 #socialbar a.facebook {background-position:0 0;}
@@ -423,7 +424,7 @@ a:hover .icon_instagram {background-position:-753px 0;}
 
 .comments {margin-top:2em;}
 .comments > h4 {color:@heading-color;}
-.comments > h4:before {font-family:FontAwesome;content:"\f086";padding-right:.5em;}
+.comments > h4:before {font-family:@icon-font-family;font-weight:900;content:"\f086";padding-right:.5em;}
 .comments .headline {color:@heading-color;font-size:small;line-height:24px;}
 .comments .signature {float:right;}
 .comments .author {font-style:italic;}
