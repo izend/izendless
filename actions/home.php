@@ -2,8 +2,8 @@
 
 /**
  *
- * @copyright  2010-2017 izend.org
- * @version    16
+ * @copyright  2010-2018 izend.org
+ * @version    17
  * @link       http://www.izend.org
  */
 
@@ -87,7 +87,7 @@ function home($lang) {
 	$account=false;
 	$footer = build('footer', $lang, compact('languages', 'account', 'admin', 'contact'));
 
-	$output = layout('standard', compact('footer', 'banner', 'content', 'sidebar', 'sharebar', 'toolbar'));
+	$output = layout('standard', compact('lang', 'footer', 'banner', 'content', 'sidebar', 'sharebar', 'toolbar'));
 
 	return $output;
 }
