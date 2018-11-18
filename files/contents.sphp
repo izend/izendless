@@ -136,14 +136,14 @@ $ pwd</code></pre>
 <h5>jQuery UI</h5>
 <h6>Calendar</h6>
 <p><input type="text" size="10" id="calendar" title="aaaa-mm-jj" /></p>
-</div>";s:17:"content_text_eval";s:1:"0";}}i:3;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:518:"<?php head('javascript', 'jquery-ui'); ?>
+</div>";s:17:"content_text_eval";s:1:"0";}}i:3;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:495:"<?php head('javascript', 'jquery-ui'); ?>
 <?php head('stylesheet', 'jquery-ui', 'screen'); ?>
-<script type="text/javascript">
+<script>
 $('#calendar').datepicker({dateFormat: 'yy-mm-dd', autoSize: true, showAnim: 'drop', showOn: 'both', buttonText: 'Calendar', buttonImage: '/images/theme/edit/calendar.png', buttonImageOnly: true, minDate: 'today', maxDate: '+2m', showOtherMonths: true, navigationAsDateFormat: true, prevText: 'MM', nextText: 'MM', beforeShowDay: function(date) {return [date.getDay() != 0];}});
-</script>";s:17:"content_text_eval";s:1:"1";}s:2:"fr";a:2:{s:17:"content_text_text";s:577:"<?php head('javascript', 'jquery-ui'); ?>
+</script>";s:17:"content_text_eval";s:1:"1";}s:2:"fr";a:2:{s:17:"content_text_text";s:554:"<?php head('javascript', 'jquery-ui'); ?>
 <?php head('javascript', 'jquery.ui.datepicker-fr'); ?>
 <?php head('stylesheet', 'jquery-ui', 'screen'); ?>
-<script type="text/javascript">
+<script>
 $('#calendar').datepicker({dateFormat: 'yy-mm-dd', autoSize: true, showAnim: 'drop', showOn: 'both', buttonText: 'Calendrier', buttonImage: '/images/theme/edit/calendar.png', buttonImageOnly: true, minDate: 'today', maxDate: '+2m', showOtherMonths: true, navigationAsDateFormat: true, prevText: 'MM', nextText: 'MM', beforeShowDay: function(date) {return [date.getDay() != 0];}});
 </script>";s:17:"content_text_eval";s:1:"1";}}i:4;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:13:"<h6>Date</h6>";s:17:"content_text_eval";s:1:"0";}s:2:"fr";a:2:{s:17:"content_text_text";s:13:"<h6>Date</h6>";s:17:"content_text_eval";s:1:"0";}}i:5;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:331:"<?php require_once 'dateen.php'; ?>
 <?php
@@ -191,9 +191,9 @@ $year = date('Y', $now);
 </ul>
 </li>
 <li><a href="#">Dolor</a></li>
-</ul>";s:17:"content_text_eval";s:1:"0";}}i:7;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:667:"<?php head('javascript', 'jquery.hoverIntent'); ?>
+</ul>";s:17:"content_text_eval";s:1:"0";}}i:7;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:644:"<?php head('javascript', 'jquery.hoverIntent'); ?>
 <?php head('javascript', 'jquery.easing'); ?>
-<script type="text/javascript">
+<script>
 $('#test-menubar > li ul').css({display: 'none', left: 'auto'});
 $('#test-menubar > li').hoverIntent(function() {
 	$('>ul', this).stop(true, true).animate({height: 'show'}, 300, 'easeOutCirc');
@@ -206,9 +206,9 @@ $('#test-menubar ul li').hoverIntent(function() {
 }, function() {
 	$(this).stop(true, true).animate({paddingLeft: 0}, 100, 'linear');
 });
-</script>";s:17:"content_text_eval";s:1:"1";}s:2:"fr";a:2:{s:17:"content_text_text";s:667:"<?php head('javascript', 'jquery.hoverIntent'); ?>
+</script>";s:17:"content_text_eval";s:1:"1";}s:2:"fr";a:2:{s:17:"content_text_text";s:644:"<?php head('javascript', 'jquery.hoverIntent'); ?>
 <?php head('javascript', 'jquery.easing'); ?>
-<script type="text/javascript">
+<script>
 $('#test-menubar > li ul').css({display: 'none', left: 'auto'});
 $('#test-menubar > li').hoverIntent(function() {
 	$('>ul', this).stop(true, true).animate({height: 'show'}, 300, 'easeOutCirc');
@@ -233,14 +233,14 @@ $('#test-menubar ul li').hoverIntent(function() {
 <source src="/files/sounds/smoke.ogg" type="audio/ogg" />
 <source src="/files/sounds/smoke.mp3" type="audio/mpeg" />
 </audio>
-</div>";s:17:"content_text_eval";s:1:"0";}}i:9;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:211:"<?php head('javascript', 'audioplayer'); ?>
+</div>";s:17:"content_text_eval";s:1:"0";}}i:9;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:153:"<?php head('javascript', 'audioplayer'); ?>
 <?php head('stylesheet', 'audioplayer', 'screen'); ?>
-<script type="text/javascript">
-$(document).ready(function() { $('#audioplayer').audioPlayer(); });
-</script>";s:17:"content_text_eval";s:1:"1";}s:2:"fr";a:2:{s:17:"content_text_text";s:211:"<?php head('javascript', 'audioplayer'); ?>
+<script>
+$('#audioplayer').audioPlayer();
+</script>";s:17:"content_text_eval";s:1:"1";}s:2:"fr";a:2:{s:17:"content_text_text";s:153:"<?php head('javascript', 'audioplayer'); ?>
 <?php head('stylesheet', 'audioplayer', 'screen'); ?>
-<script type="text/javascript">
-$(document).ready(function() { $('#audioplayer').audioPlayer(); });
+<script>
+$('#audioplayer').audioPlayer();
 </script>";s:17:"content_text_eval";s:1:"1";}}i:10;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:673:"<h5 class="noprint">HTML5</h5>
 <h6 class="noprint">Video</h6>
 <p>
