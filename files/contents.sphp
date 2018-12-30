@@ -1,4 +1,4 @@
-a:2:{i:0;a:3:{i:0;a:10:{s:11:"node_visits";s:1:"1";s:14:"node_nocomment";s:1:"0";s:18:"node_nomorecomment";s:1:"0";s:11:"node_novote";s:1:"0";s:15:"node_nomorevote";s:1:"0";s:10:"node_ilike";s:1:"1";s:10:"node_tweet";s:1:"1";s:12:"node_plusone";s:1:"1";s:13:"node_linkedin";s:1:"1";s:10:"node_pinit";s:1:"1";}s:2:"en";a:5:{s:9:"node_name";s:8:"contents";s:10:"node_title";s:8:"Contents";s:13:"node_abstract";s:52:"The different types of contents - CSS - Using jQuery";s:10:"node_cloud";s:87:"content text PHP insertion file download date menu audio video YouTube HTML5 jQuery CSS";s:10:"node_image";s:23:"/files/images/pinit.png";}s:2:"fr";a:5:{s:9:"node_name";s:8:"contenus";s:10:"node_title";s:8:"Contenus";s:13:"node_abstract";s:63:"Les différents types de contenus - CSS - Utilisation de jQuery";s:10:"node_cloud";s:100:"contenu texte PHP insertion fichier téléchargement date menu audio vidéo YouTube HTML5 jQuery CSS";s:10:"node_image";s:23:"/files/images/pinit.png";}}i:1;a:19:{i:1;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:2416:"<div class="vignette"><a href="http://www.izend.org"><img src="/logos/izend.png" alt="" title="iZend - The web engine" /></a></div>
+a:2:{i:0;a:3:{i:0;a:10:{s:11:"node_visits";s:1:"1";s:14:"node_nocomment";s:1:"0";s:18:"node_nomorecomment";s:1:"0";s:11:"node_novote";s:1:"0";s:15:"node_nomorevote";s:1:"0";s:10:"node_ilike";s:1:"1";s:10:"node_tweet";s:1:"1";s:12:"node_plusone";s:1:"1";s:13:"node_linkedin";s:1:"1";s:10:"node_pinit";s:1:"1";}s:2:"en";a:5:{s:9:"node_name";s:8:"contents";s:10:"node_title";s:8:"Contents";s:13:"node_abstract";s:52:"The different types of contents - CSS - Using jQuery";s:10:"node_cloud";s:87:"content text PHP insertion file download date menu audio video YouTube HTML5 jQuery CSS";s:10:"node_image";s:23:"/files/images/pinit.png";}s:2:"fr";a:5:{s:9:"node_name";s:8:"contenus";s:10:"node_title";s:8:"Contenus";s:13:"node_abstract";s:63:"Les différents types de contenus - CSS - Utilisation de jQuery";s:10:"node_cloud";s:100:"contenu texte PHP insertion fichier téléchargement date menu audio vidéo YouTube HTML5 jQuery CSS";s:10:"node_image";s:23:"/files/images/pinit.png";}}i:1;a:19:{i:1;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:2384:"<div class="vignette"><a href="http://www.izend.org"><img src="/logos/izend.png" alt="" title="iZend - The web engine" /></a></div>
 <p>Lorem ipsum dolor sit amet, alterum antiopam maluisset vis eu, et brute expetenda iracundia has. Eos animal nusquam delicata ad. Cetero legendos in pri, no usu quidam utamur. Vel quodsi voluptua cu, eam ex reque audire vidisse. Te modo omnes sea, ad detracto praesent cotidieque vim, eam quando intellegat an. Aeque erroribus mei te, ei est possit iriure.</p>
 <p>Text <b>bold</b>, <i>italics</i>, <u>underlined</u> and <s>striked</s>.</p>
 <h4>H4</h4>
@@ -59,11 +59,11 @@ $ pwd</code></pre>
 </ol>
 </div>
 <h6>Columns</h6>
-<div class="row bythree" style="margin-top:-1em">
+<div class="row">
 <p>No dolor invenire adversarium nam, erat suscipit per no. Id duo summo mollis.</p>
 <p>Per ut illud tempor. Ut vis laboramus voluptatibus. Vel oporteat ullamcorper id, modus decore luptatum vim ea. Nec ex brute placerat, feugiat percipitur eos ea, fabulas principes ea sit.</p>
 <p><img class="left" src="/logos/izend.png" alt="" title="www.izend.org" />Ad eam odio evertitur neglegentur, verterem disputationi eam ex. Sed no solet homero voluptua.</p>
-</div>";s:17:"content_text_eval";s:1:"0";}s:2:"fr";a:2:{s:17:"content_text_text";s:2460:"<div class="vignette"><a href="http://www.izend.org"><img src="/logos/izend.png" alt="" title="iZend - Le moteur web" /></a></div>
+</div>";s:17:"content_text_eval";s:1:"0";}s:2:"fr";a:2:{s:17:"content_text_text";s:2428:"<div class="vignette"><a href="http://www.izend.org"><img src="/logos/izend.png" alt="" title="iZend - Le moteur web" /></a></div>
 <p>Lorem ipsum dolor sit amet, alterum antiopam maluisset vis eu, et brute expetenda iracundia has. Eos animal nusquam delicata ad. Cetero legendos in pri, no usu quidam utamur. Vel quodsi voluptua cu, eam ex reque audire vidisse. Te modo omnes sea, ad detracto praesent cotidieque vim, eam quando intellegat an. Aeque erroribus mei te, ei est possit iriure.</p>
 <p>Texte en <b>gras</b>, en <i>italique</i>, <u>souligné</u> et <s>barré</s>.</p>
 <h4>H4</h4>
@@ -124,7 +124,7 @@ $ pwd</code></pre>
 </ol>
 </div>
 <h6>Colonnes</h6>
-<div class="row bythree" style="margin-top:-1em">
+<div class="row">
 <p>No dolor invenire adversarium nam, erat suscipit per no. Id duo summo mollis.</p>
 <p>Per ut illud tempor. Ut vis laboramus voluptatibus. Vel oporteat ullamcorper id, modus decore luptatum vim ea. Nec ex brute placerat, feugiat percipitur eos ea, fabulas principes ea sit.</p>
 <p><img class="left" src="/logos/izend.png" alt="" title="www.izend.org" />Ad eam odio evertitur neglegentur, verterem disputationi eam ex. Sed no solet homero voluptua.</p>
