@@ -102,7 +102,7 @@ foreach ($thread_contents as $c) {
 <tr>
 <td><input name="p[<?php echo $i; ?>]" type="text" size="2" maxlength="<?php echo $maxlen; ?>" value="<?php echo $pos; ?>" /></td>
 <td><a href="<?php echo $node_url; ?>" title="<?php echo $node_id; ?>"><?php echo $node_title ? htmlspecialchars($node_title, ENT_COMPAT, 'UTF-8') : $node_id; ?></a></td>
-<td><?php if ($node_ignored): ?><span class="btn_edit btn_ignored">X</span><?php endif; ?></td>
+<td><?php if ($node_ignored): ?><i class="fa fa-fa-times-circle inerror"></i><?php endif; ?></td>
 </tr>
 <?php
 	$i++;
