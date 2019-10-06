@@ -1,7 +1,7 @@
 /**
  *
  * @copyright  2015-2019 izend.org
- * @version    29
+ * @version    30
  * @link       http://www.izend.org
  */
  
@@ -199,12 +199,13 @@ div.youtube iframe {position:absolute;top:0;left:0;width:100%;height:100%;border
 
 div.video video, div.canvas canvas {display:flex;width:100%;height:100%;}
 
-.tree, .tree ol, .tree li {position:relative;}
-.tree ol {list-style:none;margin:0;padding-left:32px;}
+.tree {margin:1em 0;}
+.tree, .tree ol, .tree ul, .tree li {display:flex;flex-direction:column;position:relative;}
+.tree ol, .tree ul {list-style:none;margin:0;padding-left:32px;}
 .tree li:before, .tree li:after {content:"";position:absolute;left:-12px;}
 .tree li:before {border-top:1px solid #aaaaaa;top:12px;width:8px;height:0;}
 .tree li:after {border-left:1px solid #aaaaaa;height:100%;width:0px;top:4px;}
-.tree ol > li:last-child:after {height:8px;}
+.tree ol > li:last-child:after, .tree ul > li:last-child:after {height:8px;}
 
 .meter {width:200px;font-weight:bold;font-size:small;border-radius:2px;border:1px solid #cccccc;outline:0 none;margin:1px 0;background:none repeat-x #ffffff;max-width:90%;}
 .meter > span {display:block;height:100%;background-color:#cccccc;color:#ffffff;text-align:center;}
