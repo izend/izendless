@@ -1,7 +1,7 @@
 /**
  *
  * @copyright  2015-2019 izend.org
- * @version    32
+ * @version    33
  * @link       http://www.izend.org
  */
  
@@ -10,7 +10,7 @@
 @import "common";
 
 *, :focus {outline:none;}
-::-moz-focus-inner {border:0;}
+::-moz-focus-inner, ::-moz-focus-outer {border:0;}
 
 body {font-family:@text-font-family;font-size:100%;line-height:1.4;}
 
@@ -34,7 +34,7 @@ table th, table td {padding:5px;margin:0;}
 table td:first-child {padding-left:0;}
 table td:last-child {padding-right:0;}
 
-input, select {font-family:@text-font-family;font-size:14px;}
+input, select, textarea {font-family:@text-font-family;font-size:14px;}
 
 input[type="text"], input[type="password"], textarea {max-width:90%;}
 
@@ -60,6 +60,8 @@ textarea {resize:vertical;}
 textarea.noresize {resize:none;}
 
 img {vertical-align:middle;max-width:100%;height:auto;}
+
+canvas {max-width:100%;height:auto;}
 
 ol {list-style-type:decimal;}
 ul {list-style-type:disc;}
