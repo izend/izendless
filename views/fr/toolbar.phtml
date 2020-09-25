@@ -10,22 +10,22 @@
 <?php if ($scroll or $nobody_page or $edit_page or $view_page or $admin_page): ?>
 <ul id="toolbar" class="menu sidebar">
 <?php if (true): ?>
-<li><a id="exit" href="<?php echo $nobody_page; ?>" rel="nofollow" title="Déconnexion"><i class="fa fa-lg fa-fw fa-power-off" aria-hidden="true" aria-label="Déconnexion"></i></a></li>
+<li><a id="exit" href="<?php echo $nobody_page; ?>" rel="nofollow" title="Déconnexion" aria-label="Déconnexion"><i class="fa fa-lg fa-fw fa-power-off" aria-hidden="true"></i></a></li>
 <?php endif; ?>
 <?php if ($edit_page): ?>
-<li><a id="edit" href="<?php echo $edit_page; ?>" title="Éditer" rel="nofollow"><i class="fa fa-lg fa-fw fa-pen" aria-hidden="true" aria-label="Éditer"></i></a></li>
+<li><a id="edit" href="<?php echo $edit_page; ?>" title="Éditer" rel="nofollow" aria-label="Éditer"><i class="fa fa-lg fa-fw fa-pen" aria-hidden="true"></i></a></li>
 <?php elseif ($view_page): ?>
-<li><a id="view" href="<?php echo $view_page; ?>" title="Voir" rel="nofollow"><i class="fa fa-lg fa-fw fa-globe" aria-hidden="true" aria-label="Voir"></i></a></li>
+<li><a id="view" href="<?php echo $view_page; ?>" title="Voir" rel="nofollow" aria-label="Voir"><i class="fa fa-lg fa-fw fa-globe" aria-hidden="true"></i></a></li>
 <?php endif; ?>
 <?php if ($scroll): ?>
 <li><a id="scrolltop" href="" rel="nofollow"><i class="fa fa-fw fa-chevron-up" aria-hidden="true"></i></a></li>
 <li><a id="scrollbottom" href="" rel="nofollow"><i class="fa fa-fw fa-chevron-down" aria-hidden="true"></i></a></li>
 <?php endif; ?>
 <?php if ($validate_page): ?>
-<li><a id="validate" href="http://validator.w3.org/check?uri=<?php echo $base_root . $validate_page; ?>" target="validator.w3.org" rel="nofollow" title="Valider"><i class="fa fa-lg fa-fw fa-check" aria-hidden="true" aria-label="Valider"></i></a></li>
+<li><a id="validate" href="http://validator.w3.org/check?uri=<?php echo $base_root . $validate_page; ?>" target="validator.w3.org" rel="nofollow" title="Valider" aria-label="Valider"><i class="fa fa-lg fa-fw fa-check" aria-hidden="true"></i></a></li>
 <?php endif; ?>
 <?php if ($admin_page): ?>
-<li><a id="admin" href="<?php echo $admin_page; ?>" rel="nofollow" title="Gérer"><i class="fa fa-lg fa-fw fa-cog" aria-hidden="true" aria-label="Gérer"></i></a></li>
+<li><a id="admin" href="<?php echo $admin_page; ?>" rel="nofollow" title="Gestion" aria-label="Gestion"><i class="fa fa-lg fa-fw fa-cog" aria-hidden="true"></i></a></li>
 <?php endif; ?>
 </ul>
 <?php if ($scroll): ?>

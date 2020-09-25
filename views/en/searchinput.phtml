@@ -10,7 +10,7 @@
 <?php if (!empty($search_url)): ?>
 <form id="searchinput" action="<?php echo $search_url; ?>" method="post">
 <input id="searchtext" name="searchtext" type="text" value="<?php echo htmlspecialchars($search_text, ENT_COMPAT, 'UTF-8'); ?>" />
-<button type="submit" class="transparent" id="search" name="search" title="Search"><i class="fa fa-lg fa-search" aria-hidden="true" aria-label="Search"></i></button>
+<button type="submit" class="transparent" id="search" name="search" title="Search" aria-label="Search"><i class="fa fa-lg fa-search" aria-hidden="true"></i></button>
 </form>
 <?php if (!empty($suggest_url)): ?>
 <?php head('javascript', 'jquery-ui'); ?>
