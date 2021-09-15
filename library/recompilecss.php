@@ -2,12 +2,14 @@
 
 /**
  *
- * @copyright  2015 izend.org
- * @version    2
+ * @copyright  2015-2021 izend.org
+ * @version    3
  * @link       http://www.izend.org
  */
 
-require_once 'less.php/Less.php';
+require_once 'less.php/lib/Less/Autoloader.php';
+
+Less_Autoloader::register();
 
 define('LESS_DIR', ROOT_DIR . DIRECTORY_SEPARATOR . 'less');
 define('CSS_DIR', ROOT_DIR . DIRECTORY_SEPARATOR . 'css' . DIRECTORY_SEPARATOR . 'less');
