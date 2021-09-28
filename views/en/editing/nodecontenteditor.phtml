@@ -50,7 +50,7 @@ or
 <input id="content_old_number" name="content_old_number" type="text" size="2" maxlength="3" value="<?php echo htmlspecialchars($old_content_number, ENT_COMPAT, 'UTF-8'); ?>" title="Number" onkeypress="return returnonenter(event)" />
 </span>
 <?php endif; ?>
-<span id="nodecontent_hidy" class="hidy"><i class="fa fa-lg fa-caret-down"></i></span>
+<span id="nodecontent_hidy" class="hidy"><i class="fas fa-lg fa-caret-down"></i></span>
 </p>
 <?php if ($node_contents): ?>
 <div id="nodecontent">
@@ -79,7 +79,7 @@ foreach ($node_contents as $c) {
 <p class="<?php echo $content_ignored ? 'ignored' : (($i % 2) ? 'odd' : 'even'); ?>">
 <input name="content_id[<?php echo $i; ?>]" type="hidden" value="<?php echo $content_id; ?>"/>
 <input name="content_p[<?php echo $i; ?>]" type="text" size="2" maxlength="3" value="<?php echo htmlspecialchars($content_pos, ENT_COMPAT, 'UTF-8'); ?>" onkeypress="return returnonenter(event)"/>
-<input id="content_ignored[<?php echo $i; ?>]" name="content_ignored[<?php echo $i; ?>]" type="checkbox"<?php if ($content_ignored): ?> checked="checked"<?php endif; ?> /><label for="content_ignored[<?php echo $i; ?>]"><i class="fa fa-times"></i></label>
+<input id="content_ignored[<?php echo $i; ?>]" name="content_ignored[<?php echo $i; ?>]" type="checkbox"<?php if ($content_ignored): ?> checked="checked"<?php endif; ?> /><label for="content_ignored[<?php echo $i; ?>]"><i class="fas fa-times"></i></label>
 <?php switch ($content_type): ?>
 <?php case 'text': ?>
 <label>Text:</label>

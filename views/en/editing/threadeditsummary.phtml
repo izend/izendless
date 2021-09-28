@@ -13,7 +13,7 @@
 <input name="clang" type="hidden" value="<?php echo $clang; ?>" />
 <p>
 <?php echo $inlanguages; ?>
-<span id="thread_hidy" class="hidy"><i class="fa fa-lg fa-caret-down"></i></span>
+<span id="thread_hidy" class="hidy"><i class="fas fa-lg fa-caret-down"></i></span>
 </p>
 <div id="thread">
 <p>
@@ -83,7 +83,7 @@ content
 <?php endif; ?>
 </span>
 <?php if ($thread_contents): ?>
-<span id="threadcontent_hidy" class="hidy"><i class="fa fa-lg fa-caret-down"></i></span>
+<span id="threadcontent_hidy" class="hidy"><i class="fas fa-lg fa-caret-down"></i></span>
 <?php endif; ?>
 </p>
 <?php if ($thread_contents): ?>
@@ -102,7 +102,7 @@ foreach ($thread_contents as $c) {
 <tr>
 <td><input name="p[<?php echo $i; ?>]" type="text" size="2" maxlength="<?php echo $maxlen; ?>" value="<?php echo $pos; ?>" /></td>
 <td><a href="<?php echo $node_url; ?>" title="<?php echo $node_id; ?>"><?php echo $node_title ? htmlspecialchars($node_title, ENT_COMPAT, 'UTF-8') : $node_id; ?></a></td>
-<td><?php if ($node_ignored): ?><i class="fa fa-fa-times-circle inerror"></i><?php endif; ?></td>
+<td><?php if ($node_ignored): ?><i class="fas fa-fa-times-circle inerror"></i><?php endif; ?></td>
 </tr>
 <?php
 	$i++;

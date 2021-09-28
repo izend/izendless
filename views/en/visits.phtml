@@ -9,7 +9,7 @@
 ?>
 <?php if ($visits > 0): ?>
 <?php require_once 'countformat.php'; ?>
-<div class="visits" title="<?php echo number_format($visits, 0, '.', ','); ?> visit<?php if ($visits > 1): ?>s<?php endif; ?>"><i class="fa fa-globe"></i>&nbsp;<?php echo count_format($visits, '.', ','); ?></div>
+<div class="visits" title="<?php echo number_format($visits, 0, '.', ','); ?> visit<?php if ($visits > 1): ?>s<?php endif; ?>"><i class="fas fa-globe"></i>&nbsp;<?php echo count_format($visits, '.', ','); ?></div>
 <?php endif; ?>
 <?php if ($visit_page): ?>
 <script>

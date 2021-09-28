@@ -10,27 +10,27 @@
 <?php if (!empty($contact_page) or !empty($user_page) or !empty($nobody_page) or !empty($account_page) or !empty($edit_page) or !empty($view_page) or !empty($validate_page) or !empty($admin_page)): ?>
 <ul id="bannermenu" class="menu menubar">
 <?php if (!empty($contact_page)): ?>
-<li><a class="btn_mail" href="<?php echo $contact_page; ?>" rel="nofollow" title="Contact us" aria-label="Contact us"><i class="fa fa-lg fa-fw fa-envelope" aria-hidden="true"></i></a></li>
+<li><a class="btn_mail" href="<?php echo $contact_page; ?>" rel="nofollow" title="Contact us" aria-label="Contact us"><i class="fas fa-lg fa-fw fa-envelope" aria-hidden="true"></i></a></li>
 <?php endif; ?>
 <?php if (!empty($user_page)): ?>
-<li><a class="btn_login" href="<?php echo $user_page; ?>" rel="nofollow" title="Your account" aria-label="Your account"><i class="fa fa-lg fa-fw fa-user" aria-hidden="true"></i></a></li>
+<li><a class="btn_login" href="<?php echo $user_page; ?>" rel="nofollow" title="Your account" aria-label="Your account"><i class="fas fa-lg fa-fw fa-user" aria-hidden="true"></i></a></li>
 <?php endif; ?>
 <?php if (!empty($nobody_page)): ?>
-<li><a class="btn_logout" href="<?php echo $nobody_page; ?>" rel="nofollow" title="Disconnect" aria-label="Disconnect"><i class="fa fa-lg fa-fw fa-power-off" aria-hidden="true"></i></a></li>
+<li><a class="btn_logout" href="<?php echo $nobody_page; ?>" rel="nofollow" title="Disconnect" aria-label="Disconnect"><i class="fas fa-lg fa-fw fa-power-off" aria-hidden="true"></i></a></li>
 <?php endif; ?>
 <?php if (!empty($account_page)): ?>
-<li><a class="btn_account" href="<?php echo $account_page; ?>" rel="nofollow" title="Your account" aria-label="Your account"><i class="fa fa-lg fa-fw fa-user" aria-hidden="true"></i></a></li>
+<li><a class="btn_account" href="<?php echo $account_page; ?>" rel="nofollow" title="Your account" aria-label="Your account"><i class="fas fa-lg fa-fw fa-user" aria-hidden="true"></i></a></li>
 <?php endif; ?>
 <?php if (!empty($edit_page)): ?>
-<li><a class="btn_edit" href="<?php echo $edit_page; ?>" rel="nofollow" title="Edit" aria-label="Edit"><i class="fa fa-lg fa-fw fa-pen" aria-hidden="true"></i></a></li>
+<li><a class="btn_edit" href="<?php echo $edit_page; ?>" rel="nofollow" title="Edit" aria-label="Edit"><i class="fas fa-lg fa-fw fa-pen" aria-hidden="true"></i></a></li>
 <?php elseif ($view_page): ?>
-<li><a class="btn_view" href="<?php echo $view_page; ?>" rel="nofollow" title="View" aria-label="View"><i class="fa fa-lg fa-fw fa-globe" aria-hidden="true"></i></a></li>
+<li><a class="btn_view" href="<?php echo $view_page; ?>" rel="nofollow" title="View" aria-label="View"><i class="fas fa-lg fa-fw fa-globe" aria-hidden="true"></i></a></li>
 <?php endif; ?>
 <?php if (!empty($validate_page)): ?>
-<li><a class="btn_validate" href="http://validator.w3.org/check?uri=<?php echo $base_root . $validate_page; ?>" target="validator.w3.org" rel="nofollow" title="Validate" aria-label="Validate"><i class="fa fa-lg fa-fw fa-check" aria-hidden="true"></i></a></li>
+<li><a class="btn_validate" href="http://validator.w3.org/check?uri=<?php echo $base_root . $validate_page; ?>" target="validator.w3.org" rel="nofollow" title="Validate" aria-label="Validate"><i class="fas fa-lg fa-fw fa-check" aria-hidden="true"></i></a></li>
 <?php endif; ?>
 <?php if (!empty($admin_page)): ?>
-<li><a class="btn_admin" href="<?php echo $admin_page; ?>" rel="nofollow" title="Manage" aria-label="Manage"><i class="fa fa-lg fa-fw fa-cog" aria-hidden="true"></i></a></li>
+<li><a class="btn_admin" href="<?php echo $admin_page; ?>" rel="nofollow" title="Manage" aria-label="Manage"><i class="fas fa-lg fa-fw fa-cog" aria-hidden="true"></i></a></li>
 <?php endif; ?>
 </ul>
 <?php endif; ?>
