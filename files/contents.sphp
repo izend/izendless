@@ -1,69 +1,4 @@
-a:2:{i:0;a:3:{i:0;a:11:{s:11:"node_visits";s:1:"1";s:14:"node_nocomment";s:1:"0";s:18:"node_nomorecomment";s:1:"0";s:11:"node_novote";s:1:"0";s:15:"node_nomorevote";s:1:"0";s:10:"node_ilike";s:1:"1";s:10:"node_tweet";s:1:"1";s:12:"node_plusone";s:1:"1";s:13:"node_linkedin";s:1:"1";s:10:"node_pinit";s:1:"1";s:13:"node_whatsapp";s:1:"1";}s:2:"en";a:5:{s:9:"node_name";s:8:"contents";s:10:"node_title";s:8:"Contents";s:13:"node_abstract";s:52:"The different types of contents - CSS - Using jQuery";s:10:"node_cloud";s:87:"content text PHP insertion file download date menu audio video YouTube HTML5 jQuery CSS";s:10:"node_image";s:23:"/files/images/pinit.png";}s:2:"fr";a:5:{s:9:"node_name";s:8:"contenus";s:10:"node_title";s:8:"Contenus";s:13:"node_abstract";s:63:"Les différents types de contenus - CSS - Utilisation de jQuery";s:10:"node_cloud";s:100:"contenu texte PHP insertion fichier téléchargement date menu audio vidéo YouTube HTML5 jQuery CSS";s:10:"node_image";s:23:"/files/images/pinit.png";}}i:1;a:19:{i:1;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:2384:"<div class="vignette"><a href="http://www.izend.org"><img src="/logos/izend.png" alt="" title="iZend - The web engine" /></a></div>
-<p>Lorem ipsum dolor sit amet, alterum antiopam maluisset vis eu, et brute expetenda iracundia has. Eos animal nusquam delicata ad. Cetero legendos in pri, no usu quidam utamur. Vel quodsi voluptua cu, eam ex reque audire vidisse. Te modo omnes sea, ad detracto praesent cotidieque vim, eam quando intellegat an. Aeque erroribus mei te, ei est possit iriure.</p>
-<p>Text <b>bold</b>, <i>italics</i>, <u>underlined</u> and <s>striked</s>.</p>
-<h4>H4</h4>
-<p>Paragraph with some <code>code embedded</code> in the text.</p>
-<h5>H5</h5>
-<p>A series of commands:</p>
-<pre><code>$ ls -l
-$ pwd</code></pre>
-<h6>H6</h6>
-<ol class="summary">
-<li><a href="#">Duo ridens</a></li>
-<li><a href="#">Tale posidonium</a></li>
-<li><a href="#">Cu mea ferri</a></li>
-</ol>
-<blockquote>Et scaevola principes elaboraret mea. At usu docendi epicurei, et ferri sensibus deterruisset nec, mei solet persius dignissim te. Vix velit rationibus at. Ei eum simul suscipit, assum munere recusabo vix no.</blockquote>
-<h6>Image</h6>
-<p><img src="/files/images/opensource.jpg" alt="" title="" /></p>
-<h6>Table</h6>
-<table>
-<thead>
-<tr><th>French</th><th>English</th></tr>
-</thead>
-<tbody>
-<tr><td>Un</td><td>One</td></tr>
-<tr><td>Deux</td><td>Two</td></tr>
-</tbody>
-</table>
-<h6>Tree</h6>
-<div class="tree">
-<i><b>/folder</b></i>
-<ol>
-  <li>
-    <i>folder</i>
-    <ol>
-      <li>
-        <i>folder</i>
-        <ol>
-          <li>file</li>
-          <li>file</li>
-        </ol>
-      </li>
-      <li>
-        <i>folder</i>
-        <ol>
-          <li>file</li>
-        </ol>
-      </li>
-    </ol>
-  </li>
-  <li>
-    <i>folder</i>
-    <ol>
-      <li>file</li>
-      <li>file</li>
-    </ol>
-  </li>
-  <li>file</li>
-</ol>
-</div>
-<h6>Columns</h6>
-<div class="row">
-<p>No dolor invenire adversarium nam, erat suscipit per no. Id duo summo mollis.</p>
-<p>Per ut illud tempor. Ut vis laboramus voluptatibus. Vel oporteat ullamcorper id, modus decore luptatum vim ea. Nec ex brute placerat, feugiat percipitur eos ea, fabulas principes ea sit.</p>
-<p><img class="left" src="/logos/izend.png" alt="" title="www.izend.org" />Ad eam odio evertitur neglegentur, verterem disputationi eam ex. Sed no solet homero voluptua.</p>
-</div>";s:17:"content_text_eval";s:1:"0";}s:2:"fr";a:2:{s:17:"content_text_text";s:2428:"<div class="vignette"><a href="http://www.izend.org"><img src="/logos/izend.png" alt="" title="iZend - Le moteur web" /></a></div>
+a:2:{i:0;a:3:{i:0;a:10:{s:11:"node_visits";i:1;s:14:"node_nocomment";i:0;s:18:"node_nomorecomment";i:0;s:11:"node_novote";i:0;s:15:"node_nomorevote";i:0;s:10:"node_ilike";i:1;s:10:"node_tweet";i:1;s:13:"node_linkedin";i:1;s:10:"node_pinit";i:1;s:13:"node_whatsapp";i:0;}s:2:"fr";a:5:{s:9:"node_name";s:8:"contenus";s:10:"node_title";s:8:"Contenus";s:13:"node_abstract";s:63:"Les différents types de contenus - CSS - Utilisation de jQuery";s:10:"node_cloud";s:100:"contenu texte PHP insertion fichier téléchargement date menu audio vidéo YouTube HTML5 jQuery CSS";s:10:"node_image";s:23:"/files/images/pinit.png";}s:2:"en";a:5:{s:9:"node_name";s:8:"contents";s:10:"node_title";s:8:"Contents";s:13:"node_abstract";s:52:"The different types of contents - CSS - Using jQuery";s:10:"node_cloud";s:87:"content text PHP insertion file download date menu audio video YouTube HTML5 jQuery CSS";s:10:"node_image";s:23:"/files/images/pinit.png";}}i:1;a:20:{i:1;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";i:0;}s:2:"fr";a:2:{s:17:"content_text_text";s:2460:"<div class="vignette"><a href="http://www.izend.org"><img src="/logos/izend.png" alt="" title="iZend - Le moteur web" /></a></div>
 <p>Lorem ipsum dolor sit amet, alterum antiopam maluisset vis eu, et brute expetenda iracundia has. Eos animal nusquam delicata ad. Cetero legendos in pri, no usu quidam utamur. Vel quodsi voluptua cu, eam ex reque audire vidisse. Te modo omnes sea, ad detracto praesent cotidieque vim, eam quando intellegat an. Aeque erroribus mei te, ei est possit iriure.</p>
 <p>Texte en <b>gras</b>, en <i>italique</i>, <u>souligné</u> et <s>barré</s>.</p>
 <h4>H4</h4>
@@ -124,42 +59,107 @@ $ pwd</code></pre>
 </ol>
 </div>
 <h6>Colonnes</h6>
-<div class="row">
+<div class="row bythree" style="margin-top:-1em">
 <p>No dolor invenire adversarium nam, erat suscipit per no. Id duo summo mollis.</p>
 <p>Per ut illud tempor. Ut vis laboramus voluptatibus. Vel oporteat ullamcorper id, modus decore luptatum vim ea. Nec ex brute placerat, feugiat percipitur eos ea, fabulas principes ea sit.</p>
 <p><img class="left" src="/logos/izend.png" alt="" title="www.izend.org" />Ad eam odio evertitur neglegentur, verterem disputationi eam ex. Sed no solet homero voluptua.</p>
-</div>";s:17:"content_text_eval";s:1:"0";}}i:2;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:141:"<div class="noprint">
+</div>";s:17:"content_text_eval";i:0;}s:2:"en";a:2:{s:17:"content_text_text";s:2416:"<div class="vignette"><a href="http://www.izend.org"><img src="/logos/izend.png" alt="" title="iZend - The web engine" /></a></div>
+<p>Lorem ipsum dolor sit amet, alterum antiopam maluisset vis eu, et brute expetenda iracundia has. Eos animal nusquam delicata ad. Cetero legendos in pri, no usu quidam utamur. Vel quodsi voluptua cu, eam ex reque audire vidisse. Te modo omnes sea, ad detracto praesent cotidieque vim, eam quando intellegat an. Aeque erroribus mei te, ei est possit iriure.</p>
+<p>Text <b>bold</b>, <i>italics</i>, <u>underlined</u> and <s>striked</s>.</p>
+<h4>H4</h4>
+<p>Paragraph with some <code>code embedded</code> in the text.</p>
+<h5>H5</h5>
+<p>A series of commands:</p>
+<pre><code>$ ls -l
+$ pwd</code></pre>
+<h6>H6</h6>
+<ol class="summary">
+<li><a href="#">Duo ridens</a></li>
+<li><a href="#">Tale posidonium</a></li>
+<li><a href="#">Cu mea ferri</a></li>
+</ol>
+<blockquote>Et scaevola principes elaboraret mea. At usu docendi epicurei, et ferri sensibus deterruisset nec, mei solet persius dignissim te. Vix velit rationibus at. Ei eum simul suscipit, assum munere recusabo vix no.</blockquote>
+<h6>Image</h6>
+<p><img src="/files/images/opensource.jpg" alt="" title="" /></p>
+<h6>Table</h6>
+<table>
+<thead>
+<tr><th>French</th><th>English</th></tr>
+</thead>
+<tbody>
+<tr><td>Un</td><td>One</td></tr>
+<tr><td>Deux</td><td>Two</td></tr>
+</tbody>
+</table>
+<h6>Tree</h6>
+<div class="tree">
+<i><b>/folder</b></i>
+<ol>
+  <li>
+    <i>folder</i>
+    <ol>
+      <li>
+        <i>folder</i>
+        <ol>
+          <li>file</li>
+          <li>file</li>
+        </ol>
+      </li>
+      <li>
+        <i>folder</i>
+        <ol>
+          <li>file</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <i>folder</i>
+    <ol>
+      <li>file</li>
+      <li>file</li>
+    </ol>
+  </li>
+  <li>file</li>
+</ol>
+</div>
+<h6>Columns</h6>
+<div class="row bythree" style="margin-top:-1em">
+<p>No dolor invenire adversarium nam, erat suscipit per no. Id duo summo mollis.</p>
+<p>Per ut illud tempor. Ut vis laboramus voluptatibus. Vel oporteat ullamcorper id, modus decore luptatum vim ea. Nec ex brute placerat, feugiat percipitur eos ea, fabulas principes ea sit.</p>
+<p><img class="left" src="/logos/izend.png" alt="" title="www.izend.org" />Ad eam odio evertitur neglegentur, verterem disputationi eam ex. Sed no solet homero voluptua.</p>
+</div>";s:17:"content_text_eval";i:0;}}i:2;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";i:0;}s:2:"fr";a:2:{s:17:"content_text_text";s:141:"<div class="noprint">
 <h5>jQuery UI</h5>
 <h6>Calendar</h6>
 <p><input type="text" size="10" id="calendar" title="aaaa-mm-jj" /></p>
-</div>";s:17:"content_text_eval";s:1:"0";}s:2:"fr";a:2:{s:17:"content_text_text";s:141:"<div class="noprint">
+</div>";s:17:"content_text_eval";i:0;}s:2:"en";a:2:{s:17:"content_text_text";s:141:"<div class="noprint">
 <h5>jQuery UI</h5>
 <h6>Calendar</h6>
 <p><input type="text" size="10" id="calendar" title="aaaa-mm-jj" /></p>
-</div>";s:17:"content_text_eval";s:1:"0";}}i:3;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:495:"<?php head('javascript', 'jquery-ui'); ?>
-<?php head('stylesheet', 'jquery-ui', 'screen'); ?>
-<script>
-$('#calendar').datepicker({dateFormat: 'yy-mm-dd', autoSize: true, showAnim: 'drop', showOn: 'both', buttonText: 'Calendar', buttonImage: '/images/theme/edit/calendar.png', buttonImageOnly: true, minDate: 'today', maxDate: '+2m', showOtherMonths: true, navigationAsDateFormat: true, prevText: 'MM', nextText: 'MM', beforeShowDay: function(date) {return [date.getDay() != 0];}});
-</script>";s:17:"content_text_eval";s:1:"1";}s:2:"fr";a:2:{s:17:"content_text_text";s:554:"<?php head('javascript', 'jquery-ui'); ?>
+</div>";s:17:"content_text_eval";i:0;}}i:3;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";i:0;}s:2:"fr";a:2:{s:17:"content_text_text";s:577:"<?php head('javascript', 'jquery-ui'); ?>
 <?php head('javascript', 'jquery.ui.datepicker-fr'); ?>
 <?php head('stylesheet', 'jquery-ui', 'screen'); ?>
-<script>
+<script type="text/javascript">
 $('#calendar').datepicker({dateFormat: 'yy-mm-dd', autoSize: true, showAnim: 'drop', showOn: 'both', buttonText: 'Calendrier', buttonImage: '/images/theme/edit/calendar.png', buttonImageOnly: true, minDate: 'today', maxDate: '+2m', showOtherMonths: true, navigationAsDateFormat: true, prevText: 'MM', nextText: 'MM', beforeShowDay: function(date) {return [date.getDay() != 0];}});
-</script>";s:17:"content_text_eval";s:1:"1";}}i:4;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:13:"<h6>Date</h6>";s:17:"content_text_eval";s:1:"0";}s:2:"fr";a:2:{s:17:"content_text_text";s:13:"<h6>Date</h6>";s:17:"content_text_eval";s:1:"0";}}i:5;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:331:"<?php require_once 'dateen.php'; ?>
-<?php
-$now=time();
-$month = longmonth_en($now);
-$day = date('j', $now);
-$year = date('Y', $now);
-?>
-<p class="date"><span class="month"><?php echo $month; ?></span> <span class="day"><?php echo $day; ?></span><span class="comma">, </span><span class="year"><?php echo $year; ?></span></p>";s:17:"content_text_eval";s:1:"1";}s:2:"fr";a:2:{s:17:"content_text_text";s:303:"<?php require_once 'datefr.php'; ?>
+</script>";s:17:"content_text_eval";i:1;}s:2:"en";a:2:{s:17:"content_text_text";s:518:"<?php head('javascript', 'jquery-ui'); ?>
+<?php head('stylesheet', 'jquery-ui', 'screen'); ?>
+<script type="text/javascript">
+$('#calendar').datepicker({dateFormat: 'yy-mm-dd', autoSize: true, showAnim: 'drop', showOn: 'both', buttonText: 'Calendar', buttonImage: '/images/theme/edit/calendar.png', buttonImageOnly: true, minDate: 'today', maxDate: '+2m', showOtherMonths: true, navigationAsDateFormat: true, prevText: 'MM', nextText: 'MM', beforeShowDay: function(date) {return [date.getDay() != 0];}});
+</script>";s:17:"content_text_eval";i:1;}}i:4;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";i:0;}s:2:"fr";a:2:{s:17:"content_text_text";s:13:"<h6>Date</h6>";s:17:"content_text_eval";i:0;}s:2:"en";a:2:{s:17:"content_text_text";s:13:"<h6>Date</h6>";s:17:"content_text_eval";i:0;}}i:5;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";i:0;}s:2:"fr";a:2:{s:17:"content_text_text";s:303:"<?php require_once 'datefr.php'; ?>
 <?php
 $now=time();
 $month = longmonth_fr($now);
 $day = date('j', $now);
 $year = date('Y', $now);
 ?>
-<p class="date"><span class="day"><?php echo $day; ?></span> <span class="month"><?php echo $month; ?></span> <span class="year"><?php echo $year; ?></span></p>";s:17:"content_text_eval";s:1:"1";}}i:6;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:369:"<h6>Menubar</h6>
+<p class="date"><span class="day"><?php echo $day; ?></span> <span class="month"><?php echo $month; ?></span> <span class="year"><?php echo $year; ?></span></p>";s:17:"content_text_eval";i:1;}s:2:"en";a:2:{s:17:"content_text_text";s:331:"<?php require_once 'dateen.php'; ?>
+<?php
+$now=time();
+$month = longmonth_en($now);
+$day = date('j', $now);
+$year = date('Y', $now);
+?>
+<p class="date"><span class="month"><?php echo $month; ?></span> <span class="day"><?php echo $day; ?></span><span class="comma">, </span><span class="year"><?php echo $year; ?></span></p>";s:17:"content_text_eval";i:1;}}i:6;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";i:0;}s:2:"fr";a:2:{s:17:"content_text_text";s:369:"<h6>Menubar</h6>
 <ul id="test-menubar" class="topbar menu">
 <li><a href="#">Lorem</a>
 <ul>
@@ -175,7 +175,7 @@ $year = date('Y', $now);
 </ul>
 </li>
 <li><a href="#">Dolor</a></li>
-</ul>";s:17:"content_text_eval";s:1:"0";}s:2:"fr";a:2:{s:17:"content_text_text";s:369:"<h6>Menubar</h6>
+</ul>";s:17:"content_text_eval";i:0;}s:2:"en";a:2:{s:17:"content_text_text";s:369:"<h6>Menubar</h6>
 <ul id="test-menubar" class="topbar menu">
 <li><a href="#">Lorem</a>
 <ul>
@@ -191,9 +191,9 @@ $year = date('Y', $now);
 </ul>
 </li>
 <li><a href="#">Dolor</a></li>
-</ul>";s:17:"content_text_eval";s:1:"0";}}i:7;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:644:"<?php head('javascript', 'jquery.hoverIntent'); ?>
+</ul>";s:17:"content_text_eval";i:0;}}i:7;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";i:0;}s:2:"fr";a:2:{s:17:"content_text_text";s:667:"<?php head('javascript', 'jquery.hoverIntent'); ?>
 <?php head('javascript', 'jquery.easing'); ?>
-<script>
+<script type="text/javascript">
 $('#test-menubar > li ul').css({display: 'none', left: 'auto'});
 $('#test-menubar > li').hoverIntent(function() {
 	$('>ul', this).stop(true, true).animate({height: 'show'}, 300, 'easeOutCirc');
@@ -206,9 +206,9 @@ $('#test-menubar ul li').hoverIntent(function() {
 }, function() {
 	$(this).stop(true, true).animate({paddingLeft: 0}, 100, 'linear');
 });
-</script>";s:17:"content_text_eval";s:1:"1";}s:2:"fr";a:2:{s:17:"content_text_text";s:644:"<?php head('javascript', 'jquery.hoverIntent'); ?>
+</script>";s:17:"content_text_eval";i:1;}s:2:"en";a:2:{s:17:"content_text_text";s:667:"<?php head('javascript', 'jquery.hoverIntent'); ?>
 <?php head('javascript', 'jquery.easing'); ?>
-<script>
+<script type="text/javascript">
 $('#test-menubar > li ul').css({display: 'none', left: 'auto'});
 $('#test-menubar > li').hoverIntent(function() {
 	$('>ul', this).stop(true, true).animate({height: 'show'}, 300, 'easeOutCirc');
@@ -221,27 +221,56 @@ $('#test-menubar ul li').hoverIntent(function() {
 }, function() {
 	$(this).stop(true, true).animate({paddingLeft: 0}, 100, 'linear');
 });
-</script>";s:17:"content_text_eval";s:1:"1";}}i:8;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:271:"<h6 class="noprint">Player</h6>
-<div style="width:260px;max-width:100%;display:inline-block">
-<audio id="audioplayer" controls loop>
+</script>";s:17:"content_text_eval";i:1;}}i:8;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";i:0;}s:2:"fr";a:2:{s:17:"content_text_text";s:32:"<h6 class="noprint">Lecteur</h6>";s:17:"content_text_eval";i:0;}s:2:"en";a:2:{s:17:"content_text_text";s:31:"<h6 class="noprint">Player</h6>";s:17:"content_text_eval";i:0;}}i:9;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";i:1;}s:2:"fr";a:2:{s:17:"content_text_text";s:462:"<div style="width:260px;max-width:100%;display:inline-block">
+<audio id="audioplayer" controls preload="metadata">
+<source src="https://www.cronorg.com/files/audio.ogg" type="audio/ogg" />
+<source src="https://www.cronorg.com/files/audio.mp3" type="audio/mpeg" />
+</audio>
+</div>
+<?php head('javascript', 'audioplayer'); ?>
+<?php head('stylesheet', 'audioplayer', 'screen'); ?>
+<script type="text/javascript">
+$('#audioplayer').audioPlayer();
+</script>";s:17:"content_text_eval";i:1;}s:2:"en";a:2:{s:17:"content_text_text";s:462:"<div style="width:260px;max-width:100%;display:inline-block">
+<audio id="audioplayer" controls preload="metadata">
+<source src="https://www.cronorg.com/files/audio.ogg" type="audio/ogg" />
+<source src="https://www.cronorg.com/files/audio.mp3" type="audio/mpeg" />
+</audio>
+</div>
+<?php head('javascript', 'audioplayer'); ?>
+<?php head('stylesheet', 'audioplayer', 'screen'); ?>
+<script type="text/javascript">
+$('#audioplayer').audioPlayer();
+</script>";s:17:"content_text_eval";i:1;}}i:10;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";i:0;}s:2:"fr";a:2:{s:17:"content_text_text";s:388:"<audio id="audioplayer" controls preload="metadata">
+<source src="https://www.cronorg.com/files/audio.ogg" type="audio/ogg" />
+<source src="https://www.cronorg.com/files/audio.mp3" type="audio/mpeg" />
+</audio>
+<?php head('javascript', 'cronorg'); ?>
+<?php head('stylesheet', 'less/cronorg', 'screen'); ?>
+<script type="text/javascript">
+$('#audioplayer').audioplayer();
+</script>";s:17:"content_text_eval";i:1;}s:2:"en";a:2:{s:17:"content_text_text";s:388:"<audio id="audioplayer" controls preload="metadata">
+<source src="https://www.cronorg.com/files/audio.ogg" type="audio/ogg" />
+<source src="https://www.cronorg.com/files/audio.mp3" type="audio/mpeg" />
+</audio>
+<?php head('javascript', 'cronorg'); ?>
+<?php head('stylesheet', 'less/cronorg', 'screen'); ?>
+<script type="text/javascript">
+$('#audioplayer').audioplayer();
+</script>";s:17:"content_text_eval";i:1;}}i:11;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";i:0;}s:2:"fr";a:2:{s:17:"content_text_text";s:670:"<h5 class="noprint">HTML5</h5>
+<h6 class="noprint">Vidéo</h6>
+<p><video controls width="640" height="272" poster="http://www.jplayer.org/video/poster/Incredibles_Teaser_640x272.png">
+<source src="http://www.jplayer.org/video/ogv/Incredibles_Teaser.ogv" type="video/ogg" />
+<source src="http://www.jplayer.org/video/m4v/Incredibles_Teaser.m4v" type="video/mp4" />
+<source src="http://www.jplayer.org/video/webm/Incredibles_Teaser.webm" type="video/webm" />
+</video>
+</p>
+<h6 class="noprint">Audio</h6>
+<p><audio controls loop>
 <source src="/files/sounds/smoke.ogg" type="audio/ogg" />
 <source src="/files/sounds/smoke.mp3" type="audio/mpeg" />
 </audio>
-</div>";s:17:"content_text_eval";s:1:"0";}s:2:"fr";a:2:{s:17:"content_text_text";s:272:"<h6 class="noprint">Lecteur</h6>
-<div style="width:260px;max-width:100%;display:inline-block">
-<audio id="audioplayer" controls loop>
-<source src="/files/sounds/smoke.ogg" type="audio/ogg" />
-<source src="/files/sounds/smoke.mp3" type="audio/mpeg" />
-</audio>
-</div>";s:17:"content_text_eval";s:1:"0";}}i:9;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:153:"<?php head('javascript', 'audioplayer'); ?>
-<?php head('stylesheet', 'audioplayer', 'screen'); ?>
-<script>
-$('#audioplayer').audioPlayer();
-</script>";s:17:"content_text_eval";s:1:"1";}s:2:"fr";a:2:{s:17:"content_text_text";s:153:"<?php head('javascript', 'audioplayer'); ?>
-<?php head('stylesheet', 'audioplayer', 'screen'); ?>
-<script>
-$('#audioplayer').audioPlayer();
-</script>";s:17:"content_text_eval";s:1:"1";}}i:10;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:673:"<h5 class="noprint">HTML5</h5>
+</p>";s:17:"content_text_eval";i:0;}s:2:"en";a:2:{s:17:"content_text_text";s:673:"<h5 class="noprint">HTML5</h5>
 <h6 class="noprint">Video</h6>
 <p>
 <video controls width="640" height="272" poster="http://www.jplayer.org/video/poster/Incredibles_Teaser_640x272.png">
@@ -256,25 +285,12 @@ $('#audioplayer').audioPlayer();
 <source src="/files/sounds/smoke.ogg" type="audio/ogg" />
 <source src="/files/sounds/smoke.mp3" type="audio/mpeg" />
 </audio>
-</p>";s:17:"content_text_eval";s:1:"0";}s:2:"fr";a:2:{s:17:"content_text_text";s:670:"<h5 class="noprint">HTML5</h5>
-<h6 class="noprint">Vidéo</h6>
-<p><video controls width="640" height="272" poster="http://www.jplayer.org/video/poster/Incredibles_Teaser_640x272.png">
-<source src="http://www.jplayer.org/video/ogv/Incredibles_Teaser.ogv" type="video/ogg" />
-<source src="http://www.jplayer.org/video/m4v/Incredibles_Teaser.m4v" type="video/mp4" />
-<source src="http://www.jplayer.org/video/webm/Incredibles_Teaser.webm" type="video/webm" />
-</video>
-</p>
-<h6 class="noprint">Audio</h6>
-<p><audio controls loop>
-<source src="/files/sounds/smoke.ogg" type="audio/ogg" />
-<source src="/files/sounds/smoke.mp3" type="audio/mpeg" />
-</audio>
-</p>";s:17:"content_text_eval";s:1:"0";}}i:11;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:80:"<h6 class="noprint"><img src="/images/youtube.png" alt="" title="YouTube"/></h6>";s:17:"content_text_eval";s:1:"0";}s:2:"fr";a:2:{s:17:"content_text_text";s:80:"<h6 class="noprint"><img src="/images/youtube.png" alt="" title="YouTube"/></h6>";s:17:"content_text_eval";s:1:"0";}}i:12;a:3:{i:0;a:2:{s:12:"content_type";s:7:"youtube";s:15:"content_ignored";s:1:"0";}s:2:"en";a:10:{s:18:"content_youtube_id";s:11:"aqz-KE-bpKQ";s:21:"content_youtube_width";s:3:"640";s:22:"content_youtube_height";s:3:"360";s:25:"content_youtube_miniature";N;s:21:"content_youtube_title";N;s:24:"content_youtube_autoplay";s:1:"0";s:24:"content_youtube_controls";s:1:"1";s:18:"content_youtube_fs";s:1:"0";s:19:"content_youtube_rel";s:1:"0";s:21:"content_youtube_theme";s:5:"light";}s:2:"fr";a:10:{s:18:"content_youtube_id";s:11:"aqz-KE-bpKQ";s:21:"content_youtube_width";s:3:"640";s:22:"content_youtube_height";s:3:"360";s:25:"content_youtube_miniature";N;s:21:"content_youtube_title";N;s:24:"content_youtube_autoplay";s:1:"0";s:24:"content_youtube_controls";s:1:"1";s:18:"content_youtube_fs";s:1:"0";s:19:"content_youtube_rel";s:1:"0";s:21:"content_youtube_theme";s:5:"light";}}i:13;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:33:"<h6 class="noprint">Download</h6>";s:17:"content_text_eval";s:1:"0";}s:2:"fr";a:2:{s:17:"content_text_text";s:41:"<h6 class="noprint">Téléchargement</h6>";s:17:"content_text_eval";s:1:"0";}}i:14;a:3:{i:0;a:2:{s:12:"content_type";s:8:"download";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:21:"content_download_name";s:11:"sysinfo.php";s:21:"content_download_path";s:17:"files/sysinfo.php";}s:2:"fr";a:2:{s:21:"content_download_name";s:11:"sysinfo.php";s:21:"content_download_path";s:17:"files/sysinfo.php";}}i:15;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:13:"<h6>File</h6>";s:17:"content_text_eval";s:1:"0";}s:2:"fr";a:2:{s:17:"content_text_text";s:16:"<h6>Fichier</h6>";s:17:"content_text_eval";s:1:"0";}}i:16;a:3:{i:0;a:2:{s:12:"content_type";s:4:"file";s:15:"content_ignored";s:1:"0";}s:2:"en";a:5:{s:17:"content_file_path";s:17:"files/sysinfo.php";s:18:"content_file_start";s:1:"0";s:16:"content_file_end";s:1:"0";s:19:"content_file_format";s:5:"html5";s:19:"content_file_lineno";s:1:"1";}s:2:"fr";a:5:{s:17:"content_file_path";s:17:"files/sysinfo.php";s:18:"content_file_start";s:1:"0";s:16:"content_file_end";s:1:"0";s:19:"content_file_format";s:5:"html5";s:19:"content_file_lineno";s:1:"1";}}i:17;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:18:"<h6>Insertion</h6>";s:17:"content_text_eval";s:1:"0";}s:2:"fr";a:2:{s:17:"content_text_text";s:18:"<h6>Insertion</h6>";s:17:"content_text_eval";s:1:"0";}}i:18;a:3:{i:0;a:2:{s:12:"content_type";s:6:"infile";s:15:"content_ignored";s:1:"0";}s:2:"en";a:1:{s:19:"content_infile_path";s:17:"files/sysinfo.php";}s:2:"fr";a:1:{s:19:"content_infile_path";s:17:"files/sysinfo.php";}}i:19;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";s:1:"0";}s:2:"en";a:2:{s:17:"content_text_text";s:240:"<h6>PHP</h6>
-<code>&lt;?php require_once 'dateen.php'; ?&gt;<br/>
-&lt;p&gt;&lt;i&gt;&lt;?php echo longdate_en(time()); ?&gt;&lt;/i&gt;&lt;/p&gt;</code>
-<?php require_once 'dateen.php'; ?>
-<p><i><?php echo longdate_en(time()); ?></i></p>";s:17:"content_text_eval";i:1;}s:2:"fr";a:2:{s:17:"content_text_text";s:240:"<h6>PHP</h6>
+</p>";s:17:"content_text_eval";i:0;}}i:12;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";i:0;}s:2:"fr";a:2:{s:17:"content_text_text";s:80:"<h6 class="noprint"><img src="/images/youtube.png" alt="" title="YouTube"/></h6>";s:17:"content_text_eval";i:0;}s:2:"en";a:2:{s:17:"content_text_text";s:80:"<h6 class="noprint"><img src="/images/youtube.png" alt="" title="YouTube"/></h6>";s:17:"content_text_eval";i:0;}}i:13;a:3:{i:0;a:2:{s:12:"content_type";s:7:"youtube";s:15:"content_ignored";i:0;}s:2:"fr";a:10:{s:18:"content_youtube_id";s:11:"aqz-KE-bpKQ";s:21:"content_youtube_width";i:640;s:22:"content_youtube_height";i:360;s:25:"content_youtube_miniature";N;s:21:"content_youtube_title";N;s:24:"content_youtube_autoplay";i:0;s:24:"content_youtube_controls";i:1;s:18:"content_youtube_fs";i:0;s:19:"content_youtube_rel";i:0;s:21:"content_youtube_theme";s:5:"light";}s:2:"en";a:10:{s:18:"content_youtube_id";s:11:"aqz-KE-bpKQ";s:21:"content_youtube_width";i:640;s:22:"content_youtube_height";i:360;s:25:"content_youtube_miniature";N;s:21:"content_youtube_title";N;s:24:"content_youtube_autoplay";i:0;s:24:"content_youtube_controls";i:1;s:18:"content_youtube_fs";i:0;s:19:"content_youtube_rel";i:0;s:21:"content_youtube_theme";s:5:"light";}}i:14;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";i:0;}s:2:"fr";a:2:{s:17:"content_text_text";s:41:"<h6 class="noprint">Téléchargement</h6>";s:17:"content_text_eval";i:0;}s:2:"en";a:2:{s:17:"content_text_text";s:33:"<h6 class="noprint">Download</h6>";s:17:"content_text_eval";i:0;}}i:15;a:3:{i:0;a:2:{s:12:"content_type";s:8:"download";s:15:"content_ignored";i:0;}s:2:"fr";a:2:{s:21:"content_download_name";s:11:"sysinfo.php";s:21:"content_download_path";s:17:"files/sysinfo.php";}s:2:"en";a:2:{s:21:"content_download_name";s:11:"sysinfo.php";s:21:"content_download_path";s:17:"files/sysinfo.php";}}i:16;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";i:0;}s:2:"fr";a:2:{s:17:"content_text_text";s:16:"<h6>Fichier</h6>";s:17:"content_text_eval";i:0;}s:2:"en";a:2:{s:17:"content_text_text";s:13:"<h6>File</h6>";s:17:"content_text_eval";i:0;}}i:17;a:3:{i:0;a:2:{s:12:"content_type";s:4:"file";s:15:"content_ignored";i:0;}s:2:"fr";a:5:{s:17:"content_file_path";s:17:"files/sysinfo.php";s:18:"content_file_start";i:0;s:16:"content_file_end";i:0;s:19:"content_file_format";s:5:"html5";s:19:"content_file_lineno";i:1;}s:2:"en";a:5:{s:17:"content_file_path";s:17:"files/sysinfo.php";s:18:"content_file_start";i:0;s:16:"content_file_end";i:0;s:19:"content_file_format";s:5:"html5";s:19:"content_file_lineno";i:1;}}i:18;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";i:0;}s:2:"fr";a:2:{s:17:"content_text_text";s:18:"<h6>Insertion</h6>";s:17:"content_text_eval";i:0;}s:2:"en";a:2:{s:17:"content_text_text";s:18:"<h6>Insertion</h6>";s:17:"content_text_eval";i:0;}}i:19;a:3:{i:0;a:2:{s:12:"content_type";s:6:"infile";s:15:"content_ignored";i:0;}s:2:"fr";a:1:{s:19:"content_infile_path";s:17:"files/sysinfo.php";}s:2:"en";a:1:{s:19:"content_infile_path";s:17:"files/sysinfo.php";}}i:20;a:3:{i:0;a:2:{s:12:"content_type";s:4:"text";s:15:"content_ignored";i:0;}s:2:"fr";a:2:{s:17:"content_text_text";s:240:"<h6>PHP</h6>
 <code>&lt;?php require_once 'datefr.php'; ?&gt;<br/>
 &lt;p&gt;&lt;i&gt;&lt;?php echo longdate_fr(time()); ?&gt;&lt;/i&gt;&lt;/p&gt;</code>
 <?php require_once 'datefr.php'; ?>
-<p><i><?php echo longdate_fr(time()); ?></i></p>";s:17:"content_text_eval";i:1;}}}}
+<p><i><?php echo longdate_fr(time()); ?></i></p>";s:17:"content_text_eval";i:1;}s:2:"en";a:2:{s:17:"content_text_text";s:240:"<h6>PHP</h6>
+<code>&lt;?php require_once 'dateen.php'; ?&gt;<br/>
+&lt;p&gt;&lt;i&gt;&lt;?php echo longdate_en(time()); ?&gt;&lt;/i&gt;&lt;/p&gt;</code>
+<?php require_once 'dateen.php'; ?>
+<p><i><?php echo longdate_en(time()); ?></i></p>";s:17:"content_text_eval";i:1;}}}}
