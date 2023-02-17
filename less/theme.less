@@ -1,7 +1,7 @@
 /**
  *
- * @copyright  2015-2022 izend.org
- * @version    59
+ * @copyright  2015-2023 izend.org
+ * @version    60
  * @link       http://www.izend.org
  */
 
@@ -18,6 +18,9 @@ a:hover.alt {color:@alt-color;}
 
 a:link .fas, a:visited .fas {color:@dim-color;}
 a:hover .fas {color:@dim-color;}
+a:link .svg-inline--fa when (@font-awesome-svg-js) {color:@dim-color;}
+a:visited .svg-inline--fa when (@font-awesome-svg-js) {color:@dim-color;}
+a:hover .svg-inline--fa when (@font-awesome-svg-js) {color:@dim-color;}
 
 body {color:@text-color;margin:0 auto;max-width:960px;}
 
@@ -39,6 +42,8 @@ th {background-color:#ffc;font-weight:bold;}
 .vignette {float:right;margin:0.25em 0 0.5em 1em;}
 
 .readmore:before {font-family:@icon-font-family;font-weight:900;content:"\f1b0";padding-right:.5em;}
+.readmore:before when (@font-awesome-svg-js) {display:none;}
+.readmore .svg-inline--fa when (@font-awesome-svg-js) {padding-right:.5em;}
 
 .clickit {display:inline-block;color:#333;background-color:#ffc;padding:10px;border-radius:@border-radius;font-weight:bold;cursor:pointer;}
 
@@ -89,6 +94,8 @@ th {background-color:#ffc;font-weight:bold;}
 .formatted {font-size:80%;}
 
 div.download:before {font-family:@icon-font-family;font-weight:900;content:"\f019";padding-right:.5em;}
+div.download:before when (@font-awesome-svg-js) {display:none;}
+div.download .svg-inline--fa when (@font-awesome-svg-js) {padding-right:.5em;}
 
 .loading {width:30px;height:30px;background:transparent url("@{base-path}/images/theme/loading.gif") no-repeat 50% 50%;}
 
@@ -143,6 +150,7 @@ a.button.lang.selected {color:#fff;}
 .lang.ru {background-position:-144px 0;}
 
 span.icon:before {font-family:@icon-font-family;font-weight:900;}
+span.icon:before when (@font-awesome-svg-js) {display:none;}
 span.icon_ok:before {content:"\f058";}
 span.icon_ko:before {content:"\f06a";color:@error-color;}
 span.icon_user:before {content:"\f007";}
@@ -353,6 +361,8 @@ a:hover #sitedomain {color:@alt-color;}
 #sharebar.awesome {margin-left:-84px;padding:5px;}
 #sharebar.awesome a, .besocial.awesome a {font-size:24px;line-height:24px;width:44px;display:list-item;list-style:none;text-align:center;padding:8px 0;cursor:pointer}
 #sharebar.awesome a .fab, .besocial.awesome a .fab {color:#fff;}
+#sharebar.awesome a .svg-inline--fa when (@font-awesome-svg-js) {color:#fff;}
+.besocial.awesome a .svg-inline--fa when (@font-awesome-svg-js) {color:#fff;}
 #sharebar.awesome .facebook, .besocial.awesome .facebook {background-color:#3b5998;}
 #sharebar.awesome .twitter, .besocial.awesome .twitter {background-color:#4ad2ff;}
 #sharebar.awesome .linkedin, .besocial.awesome .linkedin {background-color:#0183b3;}
@@ -413,6 +423,8 @@ a:hover .icon_instagram {background-position:-753px 0;}
 .comments {margin-top:2em;}
 .comments > h4 {color:@heading-color;}
 .comments > h4:before {font-family:@icon-font-family;font-weight:900;content:"\f086";padding-right:.5em;}
+.comments > h4:before when (@font-awesome-svg-js) {display:none;}
+.comments > h4 .svg-inline--fa when (@font-awesome-svg-js) {padding-right:.5em;}
 .comments .headline {color:@heading-color;font-size:small;line-height:24px;}
 .comments .signature {float:right;}
 .comments .author {font-style:italic;}
