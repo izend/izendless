@@ -1,7 +1,7 @@
 /**
  *
  * @copyright  2015-2023 izend.org
- * @version    62
+ * @version    63
  * @link       http://www.izend.org
  */
 
@@ -428,7 +428,7 @@ a:hover .icon_instagram {background-position:-753px 0;}
 .comments .signature {float:right;}
 .comments .author {font-style:italic;}
 .comments .author a:link, .comments .author a:visited {color:#666;}
-.comments .author a:hover {color:#f90;}
+.comments .author a:hover {color:@link-color;}
 .comments blockquote {font-size:small;margin-right:0;}
 
 .newcomment > h6 {color:@heading-color;}
@@ -437,11 +437,11 @@ a:hover .icon_instagram {background-position:-753px 0;}
 .bbcodebar_limiter {font-size:x-small;margin-left:10px;}
 .bbcodehelp {color:#666;font-size:x-small;font-style:normal;margin-top:0.5em;}
 
-.visits, .vote {font-family:@headings-font-family;font-weight:bold;color:#444;font-size:smaller;}
+.visits, .vote {font-family:@headings-font-family;font-weight:bold;color:@vote-color;font-size:smaller;}
 .visits, .vote {float:right;margin-left:1em;margin-top:0.5em;}
 .vote .count {float:left;margin-right:0.25em;}
 .vote span.plusone {display:inline-block;cursor:default;}
-.vote button.plusone {color:#444;cursor:pointer;}
+.vote button.plusone {color:@vote-color;cursor:pointer;}
 
 #searchlinks ol {margin-top:0.5em;margin-left:0;padding:0;}
 #searchlinks li {list-style:none;margin:1em 0;}
@@ -475,7 +475,7 @@ a:hover .icon_instagram {background-position:-753px 0;}
 .summary {float:right;display:block;font-family:@headings-font-family;font-size:small;text-align:right;margin:0 0 1em 2em;padding:10px;background-color:#fff;border-radius:@border-radius;box-shadow:@shadow-size @shadow-color;-webkit-box-shadow:@shadow-size @shadow-color;}
 .summary li {list-style:none;}
 
-.meter.inerror > span {background-color:#f30 !important;}
+.meter.inerror > span {background-color:@error-color !important;}
 
 #pinterest-board > span {box-shadow:none !important;}
 #pinterest-board > span > span {overflow:hidden;}
