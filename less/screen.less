@@ -1,7 +1,7 @@
 /**
  *
  * @copyright  2015-2026 izend.org
- * @version    43
+ * @version    44
  * @link       http://www.izend.org
  */
  
@@ -18,7 +18,6 @@ body {font-family:@text-font-family;font-size:100%;line-height:1.4;}
 
 h1, h2, h3, h4, h5, h6, label, caption, #rate-it legend {font-family:@headings-font-family;}
 
-pre {font-family:@text-font-family;}
 code {font-family:@mono-font-family;}
 pre code {font-size:13px;white-space:pre-wrap;}
 
@@ -40,7 +39,7 @@ input, select, textarea {font-family:@text-font-family;font-size:14px;}
 
 input[type="text"], input[type="password"], textarea {box-sizing:border-box;max-width:100%;}
 
-input[type="text"], input[type="password"], input[type="number"], input[type="date"], textarea, select, fieldset {border:1px solid #ccc;outline:0 none;margin:1px 0;background:none repeat-x #fff;}
+input[type="text"], input[type="password"], input[type="number"], input[type="date"], textarea, select, fieldset {border:1px solid #ccc;outline:0 none;margin:1px 0;background:#fff;}
 input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="date"]:focus, textarea:focus {border-color:#aaa;}
 
 input[type="text"], input[type="password"], input[type="number"], input[type="date"], textarea, select, fieldset {border-radius:2px;}
@@ -49,13 +48,16 @@ input[type="text"], input[type="password"], input[type="number"], input[type="da
 fieldset {padding:5px 10px 8px;}
 select {padding:3px;}
 
-input[type="text"][readonly] {border-color:transparent;cursor:default;}
+input[type="text"][readonly], input[type="number"][readonly], input[type="date"][readonly] {border-color:transparent;cursor:default;}
 
 input[type="radio"], input[type="checkbox"] {min-height:14px;line-height:normal;}
+input[type="radio"] {margin-top:0;}
 
 label[for] input[type="checkbox"] {margin-top:0;}
 
-input.text_date[type="text"] {width:96px;}
+input[type="text"].text_date {width:96px;}
+
+input[type="text"].text_captcha {text-align:center;}
 
 form.compact p, div.compact p, p.compact {margin-top:0.75em;margin-bottom:0.5em;}
 form div.row {margin-top:0;margin-bottom:0;}
@@ -73,7 +75,7 @@ ul {list-style-type:disc;}
 .monospace {font-family:@mono-font-family;}
 .proportional {font-family:@text-font-family;}
 
-.fullwidth {padding:10px 9999px 10px;margin:0 -9999px 0;}	/* html, body {overflow-x:hidden;} */
+.fullwidth {padding:10px 9999px 10px;margin:0 -9999px 0;}
 
 .menu {font-family:@headings-font-family;}
 .menu {margin:0;padding:0;}
@@ -112,7 +114,7 @@ ul {list-style-type:disc;}
 .popup ul li a {width:10em;}
 .popup li:hover ul {display:block;}
 
-div.file {word-wrap:break-word;}
+div.file {overflow-wrap:break-word;}
 
 div.row {display:flex;}
 div.row > * {margin:0 1%;flex:100%;}
@@ -127,8 +129,6 @@ div.row.fixed > *, div.row > .fixed {flex:auto 0 0;}
 div.column {display:flex;flex-direction:column;}
 div.column > * {flex:100%;}
 div.column > .fixed {flex:auto 0 0;}
-
-div.labeled > span {float:left;width:10em;margin-right:1em;text-align:right;}
 
 div.gallery {overflow:auto;white-space:nowrap;}
 div.gallery img {max-width:none;}
@@ -146,8 +146,6 @@ div.vbar > *:first-child {margin-top:0;}
 div.vbar > *:last-child {margin-bottom:0;}
 
 .clear {clear:both;}
-
-.incolumn {overflow:hidden;}
 
 .block {display:block !important;}
 .inline {display:inline !important;}
@@ -172,14 +170,17 @@ div.vbar > *:last-child {margin-bottom:0;}
 
 .selected {font-weight:bold;}
 .emphasis {font-style:italic;}
-.superscript {vertical-align:super;} 
 
 .aleft {text-align:left;}
 .aright {text-align:right;}
 .acenter {text-align:center;}
 
+.hflip {transform:scaleX(-1);}
+.vflip {transform:scaleY(-1);}
+.hvflip {transform:scale(-1, -1);}
+
 .nowrap {white-space:nowrap !important;}
-.breakword {word-wrap:break-word !important;}
+.breakword {overflow-wrap:break-word !important;}
 .breakall {word-break:break-all !important;}
 
 .pointer {cursor:pointer;}
@@ -187,11 +188,7 @@ div.vbar > *:last-child {margin-bottom:0;}
 
 .nomargin {margin:0;}
 
-.hflip {transform:scaleX(-1);}
-.vflip {transform:scaleY(-1);}
-.hvflip {transform:scale(-1, -1);}
-
-button, input.submit {padding:0;margin:5px 0;border:none;-webkit-appearance:none;cursor:pointer;}
+button, input.submit {padding:0;margin:5px 0;border:none;appearance:none;cursor:pointer;}
 
 a.button {padding:6px 0 0;margin:5px 0;display:inline-block;text-align:center;vertical-align:middle;cursor:pointer;}
 
@@ -224,5 +221,5 @@ div.video video, div.canvas canvas {display:flex;width:100%;height:100%;}
 .tree li:after {border-left:1px solid #aaa;height:100%;width:0px;top:4px;}
 .tree ol > li:last-child:after, .tree ul > li:last-child:after {height:8px;}
 
-.meter {width:200px;height:20px;font-weight:bold;font-size:small;border-radius:2px;border:1px solid #ccc;outline:0 none;margin:1px 0;background:none repeat-x #fff;max-width:90%;}
+.meter {width:200px;height:20px;font-weight:bold;font-size:small;border-radius:2px;border:1px solid #ccc;outline:0 none;margin:1px 0;background:#fff;max-width:90%;overflow:hidden;}
 .meter > span {display:block;height:100%;background-color:#ccc;color:#fff;text-align:center;}
